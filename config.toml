@@ -7,7 +7,7 @@ copyright = "CC-BY"
 # Parameters
 [params]
     subtitle = "archivist + historian"
-
+    author = "Joe Carrano"
 [permalinks]
   posts = "/:year/:month/:slug/"
 
