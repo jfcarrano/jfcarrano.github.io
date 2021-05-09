@@ -1,0 +1,90 @@
+baseURL = "https://carrano.org/"
+languageCode = "en-us"
+title = "Joe Carrano"
+theme = "smol"
+copyright = "CC-BY"
+
+# Parameters
+[params]
+    subtitle = "archivist + historian"
+
+[permalinks]
+  posts = "/:year/:month/:slug/"
+
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 2 
+
+  [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 2
+
+  [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 4
+
+# Footer
+    [[menu.footer]]
+        name = "RSS"
+        url = "https://carrano.org/posts/index.xml"
+        weight = 1 
+
+    [[menu.footer]]
+        name = "Mastodon"
+        url = "https://digipres.club/@joe"
+        weight = 3
+
+    [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/jfcarrano"
+        weight = 4
+
+    [[menu.footer]]
+        name = "Twitter"
+        url = "https://twitter.com/joecar25"
+        weight = 2
+
+    [[menu.footer]]
+        name = "Orcid"
+        url = "https://orcid.org/0000-0003-2218-5838"
+        weight = 45
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+
+  [privacy.googleAnalytics]
+    disable = true
+
+  [privacy.instagram]
+    disable = false
+    enableDNT = true
+    simple = true
+
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
+
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = true
+
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[services]
+  [services.twitter]
+    disableInlineCSS = true
+
+  [services.instagram]
+    disableInlineCSS = true
