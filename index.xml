@@ -1,4 +1,107 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joe Carrano</title><link>https://carrano.org/</link><description>Recent content on Joe Carrano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC-BY</copyright><lastBuildDate>Sun, 09 May 2021 04:00:50 -0400</lastBuildDate><atom:link href="https://carrano.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://carrano.org/2021/05/hello-world/</link><pubDate>Sun, 09 May 2021 04:00:50 -0400</pubDate><guid>https://carrano.org/2021/05/hello-world/</guid><description>&lt;p>Hi there! I&amp;rsquo;ve decided to break ground on a new website for myself that&amp;rsquo;s more under my control and at my own domain.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joe Carrano</title><link>https://carrano.org/</link><description>Recent content on Joe Carrano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC-BY</copyright><lastBuildDate>Tue, 24 Aug 2021 20:26:29 -0400</lastBuildDate><atom:link href="https://carrano.org/index.xml" rel="self" type="application/rss+xml"/><item><title>A short look @ Kids dot US, a failed public/private web experiment [for kids]</title><link>https://carrano.org/2021/08/kids-dot-us/</link><pubDate>Tue, 24 Aug 2021 20:26:29 -0400</pubDate><guid>https://carrano.org/2021/08/kids-dot-us/</guid><description>&lt;p>A little while ago I went down a Wikipedia rabbit hole and ended up at the the Wikipedia article for the &lt;a href="https://en.wikipedia.org/wiki/.us">.us domain&lt;/a>. I was particularly intrigued by the section for Kids.us. Have you heard of it? I know I had no idea what it was.&lt;/p>
+&lt;p>As the Wikipedia article states, it was a subdomain of the .us domain made specifically for kids and created by U.S. law! Through an act of Congress in 2002, lawmakers created the subdomain to be used by content providers to create kid-centric websites. It never really took off and by the end there were only 6 active websites left on the subdomain: Nick, NickJr, PBSkids, Smithsonian, and two identical sites selling trampolines.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>This peaked my interest. What were these websites like? Was there any more information out there? Why did the U.S. government ever think this was a good idea?&lt;/p>
+&lt;h2 id="birthing-a-subdomain">Birthing a subdomain&lt;/h2>
+&lt;p>In the early 2000s, just as today, politicians were &lt;em>concerned&lt;/em> about kids on the internet. Especially how sites were using common word web domains to host pornography, which many people, including children, would stumble upon accidentally. A bipartisan group of lawmakers felt the solution would be to create a domain where there would only be appropriate content for children, which many of them described akin to the &amp;ldquo;children&amp;rsquo;s section of a library&amp;rdquo; but of course probably never spoke to a children&amp;rsquo;s librarian.&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>The original idea was to create a new TLD (top-level domain) called dot kids (.kids) but there was some controversy over the US throwing its weight around to impose US law to a domain that would be used internationally and also the bill&amp;rsquo;s sponsors felt it would take ICANN forever to actually deliberate on whether they would agree to create this for them. In light of this, the focus switched to an area more under US control, the .us domain.&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>So as mentioned above, they created an act (the Dot Kids Implementation and Efficiency Act of 2002) and the kids dot us subdomain (.kids.us) was born. The law tasked the company under contract with &lt;a href="https://en.wikipedia.org/wiki/National_Telecommunications_and_Information_Administration">NTIA&lt;/a> to administer the .us domain at the time, &lt;a href="https://en.wikipedia.org/wiki/Neustar">Neustar&lt;/a>, to manage the subdomain and the content moderation of the sites that registered.&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="we-have-rules">We have rules&lt;/h2>
+&lt;p>Neustar started up the service and got a decent amount of registrants but not a lot of &lt;code>#content&lt;/code>. It was pretty strict what could go on the site - no external hyperlinks (a walled garden), no &amp;ldquo;two-way and multi-user interactive services&amp;rdquo; (email, chat, etc.), nothing that would break existing laws, plus no: mature content, pornography, inappropriate language, violence, hate speech, drugs, alcohol, tobacco, ambling, weapons, and criminal activity. In order finance the administration of these rules, each registration came with a hefty price tag plus a &amp;ldquo;content approval fee&amp;rdquo;, which in turn probably stifled demand combined with the already stringent content rules.&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup> &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="were-the-kids-of-the-dot-us-woah">We&amp;rsquo;re the kids of the dot US (woah)&lt;/h2>
+&lt;p>At its peak, Kids dot US only had about 24 active websites, a far cry from what the crafters of the act that established it envisioned. The main kids.us site indexed these pages on the homepage. Most just consisted of Flash games which included hyperlinks, i.e. violated the rules, directing users to the download the required software (safest software out there at the time!). There also seemed to be a bunch of sites that had links to outside sites but they weren&amp;rsquo;t hyperlinked, so really any kid who learned copy/paste would be well on their way to the big bad internet.&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>Below are a selection of the mundane to strange screenshots I saw when browsing the archived website.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://carrano.org/posts/media/kidsdotus_01.png" alt="screenshot of early kids.us homepage" />
+&lt;figcaption>original kids.us index page&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://carrano.org/posts/media/kidsdotus_pbskids01.png" alt="screenshot of pbskids.kids.us" />
+&lt;figcaption>clearly part of the conspiracy&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://carrano.org/posts/media/kidsdotus_americaslibrary01.png" alt="screenshot of AmericasLibrary.kids.us" />
+&lt;figcaption>everyone knows what America&amp;#39;s library is&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://carrano.org/posts/media/kidsdotus_minnesota01.png" alt="screenshot of minnesosta.kids.us" />
+&lt;figcaption>they do stuff&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://carrano.org/posts/media/kidsdotus_noaa01.png" alt="screenshot of noaa.kids.us" />
+&lt;figcaption>Owlie Skywarn is actually pretty cool&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://carrano.org/posts/media/kidsdotus_noaa02.png" alt="screenshot of noaa.kids.us" />
+&lt;figcaption>lightning is dangerous, but also fun!&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://carrano.org/posts/media/kidsdotus_summum01.png" alt="screenshot of summum.kids.us" />
+&lt;figcaption>mummification, for kids!&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://carrano.org/posts/media/kidsdotus_summum02.png" alt="screenshot of &amp;amp;lsquo;summum.kids.us/mummybear&amp;amp;rsquo;" />
+&lt;figcaption>did I mention the mummy people had a mummy bear mascot?&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://carrano.org/posts/media/kidsdotus_stnicholas.png" alt="screenshot of stnicholas.kids.us" />
+&lt;figcaption>Santa truthers were there too&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="you-dont-have-to-go-home-but-you-cant-stay-here">You don&amp;rsquo;t have to go home but you can&amp;rsquo;t stay here&lt;/h2>
+&lt;p>
+&lt;figure>
+&lt;img src="https://carrano.org/posts/media/kidsdotus_knex01.png" alt="screenshot of knex.kids.us" />
+&lt;figcaption>please set it aside, and do not use it&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Kids dot US shutdown officially in 2012 and an education advisory group set to the task of evaluating whether it was worth it to keep it going in some way. Spoiler alert: it wasn&amp;rsquo;t. &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>The limited scope of the subdomain makes it an ideal use case if someone wanted to do research on what went on there from a number of perspectives. It could be something similar to &lt;a href="https://doi.org/10.1007/s00799-016-0202-6">the study of another short lived domain, Yugoslavia (.yu)&lt;/a>, or something different entirely! Take a look at the &lt;a href="https://web.archive.org/web/20050403142136/http://www.kids.us/sitelist.html?catALL">archived 2005 site&lt;/a> of the index (around the time with the peak number if sites) either in Wayback or Oldweb.today (for flash!) and enjoy the ride.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/.us#Kids.us">Kids.us Wikipedia article section&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>&lt;a href="https://web.archive.org/web/20150402092915/http://www.neustar.us/wp-content/uploads/2014/10/education-advisory-committee-final-report.pdf">Final Report of the Kids.us Education Advisory Committee&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>&lt;a href="https://purl.fdlp.gov/GPO/LPS67177">S. 2537, H.R. 3833 : Dot Kids Implementation and Efficiency Act of 2002 : hearing before the Subcommittee on Science, Technology, and Space of the Committee on Commerce, Science, and Transportation, United States Senate, One Hundred Seventh Congress, second session, September 12, 2002. &lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>&lt;a href="https://purl.fdlp.gov/GPO/LPS17355">Dot Kids Name Act of 2001. Hearing before the Subcommittee on Telecommunications and the Internet of the Committee on Energy and Commerce. House of Representatives, One Hundred Seventh Congress, First Session on H.R. 2417&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>&lt;a href="https://www.govinfo.gov/app/details/PLAW-107publ317">Public Law 107 - 317 - Dot Kids Implementation and Efficiency Act of 2002&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>&lt;a href="https://web.archive.org/web/20040409145510/http://www.kids.us/content_policy/content.html">Kids.us Content Policies&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>&lt;a href="https://circleid.com/posts/the_small_but_limitless_world_of_kidsus/">The Small, But Limitless World of .kids.us&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>&lt;a href="https://purl.fdlp.gov/GPO/LPS54570">The &amp;ldquo;dot kids&amp;rdquo; Internet domain: protecting children online: hearing before the Subcommittee on Telecommunications and the Internet of the Committee on Energy and Commerce, House of Representatives, One Hundred Eighth Congress, second session, May 6, 2004&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Hello World</title><link>https://carrano.org/2021/05/hello-world/</link><pubDate>Sun, 09 May 2021 04:00:50 -0400</pubDate><guid>https://carrano.org/2021/05/hello-world/</guid><description>&lt;p>Hi there! I&amp;rsquo;ve decided to break ground on a new website for myself that&amp;rsquo;s more under my control and at my own domain.&lt;/p>
 &lt;p>I&amp;rsquo;m moving away from my old site &lt;a href="https://josephcarrano.wordpress.com">josephcarrano.wordpress.com&lt;/a> and casting it into the abandoned graveyard. In recent years, I&amp;rsquo;ve been loath to create new posts not only because I&amp;rsquo;m lazy but also because I hate the thought of publishing content to URLs that could easily break.&lt;/p>
 &lt;p>Despite this worry, I won&amp;rsquo;t be migrating content at the moment or setting up redirects because I don&amp;rsquo;t feel like paying WordPress for the redirect service and it&amp;rsquo;s simple enough to leave it there neglected as it has been for the last few years. I&amp;rsquo;m mainly leaving it up in the interest of preventing link rot on the few posts that people found useful. If you want to check out the posts there, they should remain as long as wordpress.com remains free and functioning online. Maybe I&amp;rsquo;ll reconsider this later.&lt;/p>
 &lt;p>Anyway, I&amp;rsquo;m hoping to post a little bit more now. As much as once or twice a year even! And if you&amp;rsquo;re interested, you&amp;rsquo;ll find that content here.&lt;/p></description></item><item><title>About me</title><link>https://carrano.org/about/</link><pubDate>Mon, 26 Apr 2021 22:50:50 -0400</pubDate><guid>https://carrano.org/about/</guid><description>&lt;p>Hi! I’m Joe Carrano. This is my personal professional site. I&amp;rsquo;m a digital archivist at MIT Libraries where I work on saving both old and new bits for future generations. Previously, I was the &lt;a href="http://www.digitalpreservation.gov/ndsr/documents/GUL_Proposal_Redacted.pdf">National Digital Stewardship Resident&lt;/a> at Georgetown University Library. I have a B.A. in history and political science from the University of Connecticut and dual master’s degrees from the University of Maryland, College Park, one in Library Science focusing on Archives and one in History focusing on U.S. History. The site you&amp;rsquo;re on serves mainly as a place to put some (infrequent) blog posts on archives, history, and the digital world. If interested, stay and read more or contact me on &lt;a href="https://twitter.com/joecar25">twitter&lt;/a> or &lt;a href="https://digipres.club">digipres.club&lt;/a>.&lt;/p></description></item></channel></rss>
