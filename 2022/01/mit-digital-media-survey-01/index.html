@@ -1,0 +1,79 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<style type=text/css>body{font-family:monospace}</style>
+<title>Learning to walk again: starting a digital media survey</title>
+<meta name=author content="Joe Carrano">
+<link rel=stylesheet href=/css/style.css>
+</head>
+<body>
+<header>
+=================<br>
+== <a href=https://carrano.org/>Joe Carrano</a> ==<br>
+=================<br>
+<div style=text-align:left>archivist + historian</div>
+<p>
+<nav>
+<a href=/><b>Start</b></a>.
+<a href=/about/><b>About</b></a>.
+<a href=/posts/><b>Posts</b></a>.
+<a href=/tags/><b>Tags</b></a>.
+</nav>
+</p>
+</header>
+<main>
+<article>
+<h1>Learning to walk again: starting a digital media survey</h1>
+<b><time>2022-01-25 20:45:52</time></b>
+<a href=/tags/archives>archives</a>
+<a href=/tags/digital-media>digital media</a>
+<a href=/tags/survey>survey</a>
+<div>
+<p>In Ricky Erway&rsquo;s foundational instructional guide, <a href=https://www.oclc.org/research/publications/2012/oclcresearch-managing-born-digital-physical-media.html>&ldquo;You&rsquo;ve Got to Walk Before You Can Run: First Steps for Managing Born-Digital Content Received on Physical Media&rdquo;</a>, we learn that &ldquo;walk&rdquo; in this context means to know about the physical media that you have in your collection, the where, the how much, and the what type. This is also related to the archival principles of <a href=https://dictionary.archivists.org/entry/physical-control.html>physical</a> and <a href=https://dictionary.archivists.org/entry/intellectual-control.html>intellectual control</a> of collections. This report inspired many archival institutions to begin surveying their collections for born-digital media as a basic starting point to approaching born-digital processing. The trend included multiple rounds of <a href=https://www2.archivists.org/groups/manuscript-repositories-section/jump-in-initiative-0>SAA&rsquo;s &ldquo;Jump-in&rdquo; initiative</a> which encouraged repositories to do surveys and share their results.</p>
+<p>Where I work, the MIT Libraries, for various reasons, did not do a survey or partake in the Jump-in initiatives. There were efforts to survey some collections but there wasn&rsquo;t anything comprehensive. At the same time, there was some transfer of material off of digital media found in collections. So we weren&rsquo;t walking or jumping but we would do random sprints and then collapse into a crawl, gasping for breath while working on other projects that came along.</p>
+<p>In recent years, I&rsquo;ve worked to formalize our <a href=https://wikis.mit.edu/confluence/x/8xmuC>procedures for transferring content</a> off of born-digital physical media and I feel like we&rsquo;re in a good place to do that work for common media types. In 2019, I began the start of work for a media survey but was delayed due to the pandemic (surprise!). When I regained the ability to access the collections again in fall 2021, I began the survey work in earnest.</p>
+<h2 id=goals>Goals</h2>
+<p>In starting this work I have a few goals for what we hope to get out of it. As you might expect, I want to figure out what media we have and where it is! Beyond this simple knowledge, doing this work will give us a more holistic understanding of the media in our collection that can inform our future processing efforts, appraisal, staffing, and what equipment we may need. While all of this media is at some level of risk remaining stored in these formats, knowing the collections that contain the media can help us take an EDISJ approach in prioritizing the transfer of content by and about white women and people of color of all genders.</p>
+<h2 id=looking-for-leads>Looking for leads</h2>
+<p>We started the survey process by developing a list of terms related to digital media, which we could then search for in our ArchivesSpace repository and create a report from the API with: Floppy, Floppies, Disc, Discs, Disk, Disks, Diskette, Diskettes, CD, CDs, CD-rom, CD-roms, DVD, DVDs, USB, Hard drive, Flash drive, Digital, Zip, Data tape, Data tapes, Thumb drive, Backup, Backups, Cartridge, Cartridges.</p>
+<p>Using this list we ended up with a pretty long CSV of possible elements within finding aids and accessions to investigate. To make this list a little more manageable, I separated out the terms that were the result of just searching &ldquo;digital&rdquo; to possibly work on at a later stage of the process, as these would most like contain the most false positives.</p>
+<p>I started going through the remaining list for any false positives or duplicate entries. We ended up with 545 entries, which isn&rsquo;t that solid of a number as in many cases I can&rsquo;t tell whether description is in aggregate or an item level. I used formulas to total up the frequency per search term and the number of results per archival collection which I can use as a starting point to figure out which collections to call first. I then took the paired down list and bulk imported them into an Aeon &ldquo;activity&rdquo; for eventually requesting their boxes from storage.</p>
+<h2 id=how-to-record-survey-results>How to record survey results</h2>
+<p>In planning for this survey we needed a method to record our results once the boxes are called from storage and we get that sweet plastic, magnetic, and optical substrate into our hands. That&rsquo;s where the media log will come in!</p>
+<p>Archivists at other institutions developed multiple media logs (<a href=https://github.com/NYULibraries/medialog>NYU</a> and <a href=https://github.com/RockefellerArchiveCenter/dm_log>Rockefeller Archive Center</a>, for instance) for similar situations as us, recording the presence of digital media in collections, it&rsquo;s type, and whether the content has been migrated to a more accessible medium. These other instances caught the eye of staff members here years ago and we had <a href=https://github.com/MITLibraries/adml>a version that was spun up for us</a> (but rewritten in Java, not sure why&mldr;). The app sat largely unused since that time, when the pandemic started it was fully taken offline due to a need of a infrastructure migration and the realization that it wouldn&rsquo;t be used for some time.</p>
+<p>As part of the survey prep we decided to get the app running again because it seemed like it would fit our needs. This took a little while with some support from staff in digital library services but we&rsquo;re back up and running. We made some minor additions for things that might be useful like label info and categories of media that weren&rsquo;t present but the app largely remains similar.</p>
+<h2 id=next-steps>Next steps</h2>
+<p>With all this geared up, we were hoping to get started with actually <em>doing</em> the survey at the start of this new year but with the pandemic raging I&rsquo;ve been fully working from home this past month. Delayed again! But what can you do? Before going remote again, I already had done some calculations based on the number of boxes I&rsquo;m allowed to call to campus (we use offsite storage), the number of days I work on campus during a week, and the time to do the survey against the time remaining and it would be impossible to finish by the end of the fiscal year (when I wanted to complete the survey).</p>
+<p>So even with the month delay, things were already a bit behind. I&rsquo;m ready to push ahead with the actual survey regardless of the time it takes and hope to share some more updates along the way!</p>
+</div>
+</article>
+</main>
+<aside>
+<div>
+<div>
+<h3>LATEST POSTS</h3>
+</div>
+<div>
+<ul>
+<li><a href=/2022/01/mit-digital-media-survey-01/>Learning to walk again: starting a digital media survey</a></li>
+<li><a href=/2021/08/kids-dot-us/>A short look @ Kids dot US, a failed public/private web experiment [for kids]</a></li>
+<li><a href=/2021/05/hello-world/>Hello World</a></li>
+</ul>
+<br>
+</div>
+</div>
+</aside>
+<footer>
+<p>&copy; 2022 <a href=https://carrano.org/><b>Joe Carrano</b></a>. Content licensed <a href=https://creativecommons.org/licenses/by/4.0/>CC-BY</a> unless otherwise noted.</p>
+<p>
+<a href=https://carrano.org/posts/index.xml><b>RSS</b></a>.
+<a href=https://twitter.com/joecar25><b>Twitter</b></a>.
+<a href=https://digipres.club/@joe><b>Mastodon</b></a>.
+<a href=https://github.com/jfcarrano><b>Github</b></a>.
+<a href=https://orcid.org/0000-0003-2218-5838><b>Orcid</b></a>.
+</p>
+</footer>
+</body>
+</html>
