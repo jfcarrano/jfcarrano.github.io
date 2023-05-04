@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joe Carrano</title><link>https://carrano.org/</link><description>Recent content on Joe Carrano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC-BY</copyright><lastBuildDate>Wed, 13 Jul 2022 08:50:02 -0400</lastBuildDate><atom:link href="https://carrano.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Distressed Links</title><link>https://carrano.org/2022/07/distressed-links/</link><pubDate>Wed, 13 Jul 2022 08:50:02 -0400</pubDate><guid>https://carrano.org/2022/07/distressed-links/</guid><description>&lt;p>At work I&amp;rsquo;ve been crawling some form of the &lt;a href="https://now.mit.edu/">MIT COVID-19 response webpage&lt;/a> daily since early March 2020. In that time there have been a couple of domain name switches but it&amp;rsquo;s been pretty boring considering the scope and tragedy of the ongoing pandemic.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joe Carrano</title><link>https://carrano.org/</link><description>Recent content on Joe Carrano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC-BY</copyright><lastBuildDate>Wed, 03 May 2023 10:11:38 -0500</lastBuildDate><atom:link href="https://carrano.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital media survey results</title><link>https://carrano.org/2023/05/mit-digital-media-survey-results/</link><pubDate>Wed, 03 May 2023 10:11:38 -0500</pubDate><guid>https://carrano.org/2023/05/mit-digital-media-survey-results/</guid><description>&lt;p>Over the last year, I&amp;rsquo;ve worked on a &lt;a href="https://carrano.org/2022/01/mit-digital-media-survey-01/">digital media survey&lt;/a> of our archival and distinctive collections at MIT Libraries. I mentioned in that post linked above I would update this blog along the way but that didn&amp;rsquo;t really happen, sorry friends!&lt;/p>
+&lt;h2 id="media-circus">Media circus&lt;/h2>
+&lt;p>Things went pretty well and a bit faster than I expected. It took me just over a year with some fits and starts to finish the whole survey process. The first stage was our archival and manuscript collections, of which, I was able to review over 300 boxes and a few dozen rare books and publications in 8 months.&lt;/p>
+&lt;p>Along the way, I transferred data from media we could in handle in house within collections that had a total of 2 or fewer pieces of media since it was convenient while the boxes were onsite. The small number ensured that we could get them done relatively easily and have a quick win of crossing a collection off the list with media needing to transfer data from.&lt;/p>
+&lt;p>After surveying the first stage of surveying, I started on the academic theses, which are also under our purview. The work to assemble the list of media from published material was started earlier when needing to find this information for publications and rare books in the main collections mentioned above. As these material have their metadata stored as MARC records in Alma, I went about putting together a similar list of material as with the archival records. Within Alma, I ran a number of &amp;ldquo;indication rules&amp;rdquo; looking in the 300 field, subfields a and e for the terms: &lt;code>dis*&lt;/code>, &lt;code>flopp*&lt;/code>, &lt;code>zip&lt;/code>,&lt;code>computer&lt;/code>, &lt;code>cartridge&lt;/code>, &lt;code>CD*&lt;/code>, &lt;code>DVD*&lt;/code>, &lt;code>USB&lt;/code>, and &lt;code>drive&lt;/code>. Additionally, local cataloging practice for a time was to use a call number prefix for media, often when those items were included with another print title with the same call number. I was able to assemble a list of these prefixes like CDROM, DSKETTE, etc. and search for them in Alma as well, in case this surfaced anything missed in the 300 field search. I combined the results into a spreadsheet, deduped them, and then got to work surveying and storing results in our media log tool.&lt;/p>
+&lt;p>Work on the theses took about another 4 months as getting them from offsite storage was just as time consuming as when doing so with the main part of the survey. With some of the these stored in boxes as a group, I often had to request many boxes just to get through a year with a few theses that contained external media. Ultimately, I was able to finish up everything by the end of February of this year.&lt;/p>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>Here are the results from our the total survey (including theses). I&amp;rsquo;ve simplified CDs and DVDs to be a summary of all of their subtypes.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Format&lt;/th>
+&lt;th style="text-align:right">Count&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">Floppy disk: 3.5 inch&lt;/td>
+&lt;td style="text-align:right">909&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">CD&lt;/td>
+&lt;td style="text-align:right">846&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Floppy disk: 5.25 inch&lt;/td>
+&lt;td style="text-align:right">394&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">DVD&lt;/td>
+&lt;td style="text-align:right">339&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Data tape&lt;/td>
+&lt;td style="text-align:right">278&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Data cartridge&lt;/td>
+&lt;td style="text-align:right">238&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Zip disk&lt;/td>
+&lt;td style="text-align:right">126&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Floppy disk: 8 inch&lt;/td>
+&lt;td style="text-align:right">49&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Jaz disk&lt;/td>
+&lt;td style="text-align:right">7&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Hard drive&lt;/td>
+&lt;td style="text-align:right">4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Computer&lt;/td>
+&lt;td style="text-align:right">4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Flash memory: USB&lt;/td>
+&lt;td style="text-align:right">3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Overall, I found just slightly under 3000 pieces of digital media in our distinctive collections and another 250ish pieces of media included with theses. It’s thankfully much less than you might expect for a technology-focused place like MIT. The majority of media found were floppy and optical formats that we have established workflows and equipment to handle. Whether the content is readable or not is another story but we can make an attempt.&lt;/p>
+&lt;p>While we can handle most of the found formats, the survey revealed a sizable number of 8-inch floppy disks, data cartridges, and mainframe data tapes, that we don’t have an in-house solution for. Those results are concerning but this is exactly what we wanted to surface for planning purposes.&lt;/p>
+&lt;h2 id="lessons-learned">Lessons Learned&lt;/h2>
+&lt;p>Things didn’t always go smoothly, this survey ended up being an exercise in metadata remediation. We often encountered errors in box numbers, missing items, total lack of description, and completely misidentified things.&lt;/p>
+&lt;p>One particular frustration with the archival and manuscript collections was that 180 entries out of 640 turned out to be false positive matches for digital media. About half of those were from using the phrase “backup” or &amp;ldquo;back-up&amp;rdquo;, which was a false match 92 percent of the time. Often it really just meant paper backups. It turns out that despite seeing the words &amp;ldquo;backup&amp;rdquo; written on labels of a lot of the media I found, it was almost never entered into a finding aid in those cases.&lt;/p>
+&lt;h2 id="future-steps">Future steps&lt;/h2>
+&lt;p>This data has already been a great starting point for better understanding how much work is ahead in analyzing and transferring digital media and how we can plan to go about it. We&amp;rsquo;ve started dissecting the specifics of the data to prioritize some of it, such as institutional records we have a clear mandate to preserve and things from women and BIPOC related collections. In the next year, we&amp;rsquo;ll begin more work on getting though the media as well as establishing metrics on how long on average it takes to process different media types. This will help give us a better idea how long we will need to commit to some of the transfer projects.&lt;/p></description></item><item><title>Distressed Links</title><link>https://carrano.org/2022/07/distressed-links/</link><pubDate>Wed, 13 Jul 2022 08:50:02 -0400</pubDate><guid>https://carrano.org/2022/07/distressed-links/</guid><description>&lt;p>At work I&amp;rsquo;ve been crawling some form of the &lt;a href="https://now.mit.edu/">MIT COVID-19 response webpage&lt;/a> daily since early March 2020. In that time there have been a couple of domain name switches but it&amp;rsquo;s been pretty boring considering the scope and tragedy of the ongoing pandemic.&lt;/p>
 &lt;p>In June, I was reviewing some of our crawl reports for this seed and I noticed an unusual url in the host report: archive.org, i.e. the big brother of Archive-It, THE (with no respect to Ohio State) Internet Archive. Obviously, this shouldn&amp;rsquo;t happen unless the site was actually linking out to IA.&lt;/p>
 &lt;p>After some investigation, I found that there were a few links to IA! &lt;em>It&amp;rsquo;s web archives all the way down.&lt;/em> The strange thing was that the links were on the MIT Travel policy page, pointing to information from &lt;a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/">the Department of State&lt;/a> and &lt;a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/map-and-travel-notices.html">the CDC&lt;/a> (under &amp;ldquo;Additional Resources&amp;rdquo;) that is still actively maintained and people would need the most up-to-date information about. Instead, they were getting pandemic related travel info from late March!&lt;/p>
 &lt;p>Checking out the &lt;a href="https://wayback.archive-it.org/7963/*/https://now.mit.edu/policies/mit-travel-policy/">Archive-it Wayback captures for the MIT travel page&lt;/a>, I saw that this change happened around May 11. You can see the proper links on &lt;a href="https://wayback.archive-it.org/7963/20220509093052/https://now.mit.edu/policies/mit-travel-policy/">May 9&lt;/a> but then those links are removed on &lt;a href="https://wayback.archive-it.org/7963/20220511014346/https://now.mit.edu/policies/mit-travel-policy/">May 11&lt;/a> and then added back in &lt;a href="https://wayback.archive-it.org/7963/20220511205440/https://now.mit.edu/policies/mit-travel-policy/">later in the day&lt;/a>, but replaced with IA Wayback links. Weird! For their part, I was able to find the maintainers of the website and they fixed the links pretty quickly.&lt;/p>
