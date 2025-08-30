@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TMNT on Joe Carrano</title><link>https://carrano.org/tags/tmnt/</link><description>Recent content in TMNT on Joe Carrano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC-BY</copyright><lastBuildDate>Wed, 27 Sep 2023 08:42:40 -0400</lastBuildDate><atom:link href="https://carrano.org/tags/tmnt/index.xml" rel="self" type="application/rss+xml"/><item><title>Transfer Metrics Needed Tracking (TMNT)</title><link>https://carrano.org/2023/09/transfer-metrics-needed-tracking/</link><pubDate>Wed, 27 Sep 2023 08:42:40 -0400</pubDate><guid>https://carrano.org/2023/09/transfer-metrics-needed-tracking/</guid><description>&lt;p>This (fiscal) year, I&amp;rsquo;m taking some next steps using the &lt;a href="https://carrano.org/2023/05/mit-digital-media-survey-results/">data produced by my digital media survey at MIT&lt;/a>. Now that we have a record of what media exist in the collections to the best of our knowledge, we can begin transferring the data off of them at a larger scale and into preservation and access storage. But wait… could I use this work as a representative sample to better plan for the future? Enter the Transfer Metrics Needed Tracking (TMNT) project.&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/TMNT_project_logo.png" alt="Transfer Metrics Needed Tracking in the style of the Teenage Mutant Ninja Turtles logo" />
-&lt;figcaption>Props to my colleague Chris Tanguay for making me aware of the TMNT logo generator website&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;h2 id="what-is-it">What is it?&lt;/h2>
-&lt;p>This is a project to record some basic numbers about the time and success rate of data transfer from digital media over the next year. This is similar to what other institutions have done, such as the British Library&amp;rsquo;s &lt;a href="https://bl.iro.bl.uk/concern/articles/ccc2d190-0f67-4982-b0a8-9adb5a04e83c?locale=en">Flashback project&lt;/a>.&lt;/p>
-&lt;p>For this project I&amp;rsquo;ve imported the media survey data into Airtable and linked it up with another base where we&amp;rsquo;ll use an interface to record the following info:&lt;/p>
-&lt;ul>
-&lt;li>Setup time&lt;/li>
-&lt;li>Transfer time and attempts&lt;/li>
-&lt;li>Transfer method&lt;/li>
-&lt;li>Overall success/failure&lt;/li>
-&lt;li>Extraction time and attempts (if not performed in the transfer process)&lt;/li>
-&lt;li>Packaging time and attempts (if not performed in the transfer process)&lt;/li>
-&lt;li>Data size&lt;/li>
-&lt;li>Computer used&lt;/li>
-&lt;/ul>
-&lt;p>The information we gather will be enhanced in the final data set by contextual information we already know from the survey: format types and media manufacturer information. The details around actually processing the files will be recorded with the rest of our processing metrics.&lt;/p>
-&lt;h2 id="why-are-you-doing-this">Why are you doing this??&lt;/h2>
-&lt;p>Really this is for planning purposes. We need to know about how long these projects might take in order to allocate enough time and person power to get the work done while balancing many other priorities. The project isn&amp;rsquo;t a way to establish benchmarks that need to be met in some sort of Taylorist archival transfer process nightmare scenario.&lt;/p>
-&lt;p>With a decent amount of a digital media backlog in existing collections, there will be many projects to transfer the data to a more stable medium over the coming years. At the same time, we&amp;rsquo;ll have new collections coming in. With a better sense of how much work we have in store, we can also make more informed decisions on whether we have the capacity to accept collections with substantial amounts of digital media or respectfully decline.&lt;/p>
-&lt;p>My hope is that this information will be useful to others as well, so I&amp;rsquo;ll to share my results out at the end and possibly along the way. Maybe somewhere else will do a similar project and we can compare numbers? In any event, grab a slice of pizza and check back for updates.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TMNT on Joe Carrano</title><link>https://carrano.org/tags/tmnt/</link><description>Recent content in TMNT on Joe Carrano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC-BY</copyright><lastBuildDate>Wed, 27 Sep 2023 08:42:40 -0400</lastBuildDate><atom:link href="https://carrano.org/tags/tmnt/index.xml" rel="self" type="application/rss+xml"/><item><title>Transfer Metrics Needed Tracking (TMNT)</title><link>https://carrano.org/2023/09/transfer-metrics-needed-tracking/</link><pubDate>Wed, 27 Sep 2023 08:42:40 -0400</pubDate><guid>https://carrano.org/2023/09/transfer-metrics-needed-tracking/</guid><description>&lt;p&gt;This (fiscal) year, I&amp;rsquo;m taking some next steps using the &lt;a href="https://carrano.org/2023/05/mit-digital-media-survey-results/"&gt;data produced by my digital media survey at MIT&lt;/a&gt;. Now that we have a record of what media exist in the collections to the best of our knowledge, we can begin transferring the data off of them at a larger scale and into preservation and access storage. But wait… could I use this work as a representative sample to better plan for the future? Enter the Transfer Metrics Needed Tracking (TMNT) project.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/TMNT_project_logo.png" alt="Transfer Metrics Needed Tracking in the style of the Teenage Mutant Ninja Turtles logo" /&gt;
+&lt;figcaption&gt;Props to my colleague Chris Tanguay for making me aware of the TMNT logo generator website&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="what-is-it"&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;This is a project to record some basic numbers about the time and success rate of data transfer from digital media over the next year. This is similar to what other institutions have done, such as the British Library&amp;rsquo;s &lt;a href="https://bl.iro.bl.uk/concern/articles/ccc2d190-0f67-4982-b0a8-9adb5a04e83c?locale=en"&gt;Flashback project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For this project I&amp;rsquo;ve imported the media survey data into Airtable and linked it up with another base where we&amp;rsquo;ll use an interface to record the following info:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup time&lt;/li&gt;
+&lt;li&gt;Transfer time and attempts&lt;/li&gt;
+&lt;li&gt;Transfer method&lt;/li&gt;
+&lt;li&gt;Overall success/failure&lt;/li&gt;
+&lt;li&gt;Extraction time and attempts (if not performed in the transfer process)&lt;/li&gt;
+&lt;li&gt;Packaging time and attempts (if not performed in the transfer process)&lt;/li&gt;
+&lt;li&gt;Data size&lt;/li&gt;
+&lt;li&gt;Computer used&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The information we gather will be enhanced in the final data set by contextual information we already know from the survey: format types and media manufacturer information. The details around actually processing the files will be recorded with the rest of our processing metrics.&lt;/p&gt;
+&lt;h2 id="why-are-you-doing-this"&gt;Why are you doing this??&lt;/h2&gt;
+&lt;p&gt;Really this is for planning purposes. We need to know about how long these projects might take in order to allocate enough time and person power to get the work done while balancing many other priorities. The project isn&amp;rsquo;t a way to establish benchmarks that need to be met in some sort of Taylorist archival transfer process nightmare scenario.&lt;/p&gt;
+&lt;p&gt;With a decent amount of a digital media backlog in existing collections, there will be many projects to transfer the data to a more stable medium over the coming years. At the same time, we&amp;rsquo;ll have new collections coming in. With a better sense of how much work we have in store, we can also make more informed decisions on whether we have the capacity to accept collections with substantial amounts of digital media or respectfully decline.&lt;/p&gt;
+&lt;p&gt;My hope is that this information will be useful to others as well, so I&amp;rsquo;ll to share my results out at the end and possibly along the way. Maybe somewhere else will do a similar project and we can compare numbers? In any event, grab a slice of pizza and check back for updates.&lt;/p&gt;</description></item></channel></rss>

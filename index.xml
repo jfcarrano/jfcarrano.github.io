@@ -1,228 +1,228 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joe Carrano</title><link>https://carrano.org/</link><description>Recent content on Joe Carrano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC-BY</copyright><lastBuildDate>Wed, 27 Sep 2023 08:42:40 -0400</lastBuildDate><atom:link href="https://carrano.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Transfer Metrics Needed Tracking (TMNT)</title><link>https://carrano.org/2023/09/transfer-metrics-needed-tracking/</link><pubDate>Wed, 27 Sep 2023 08:42:40 -0400</pubDate><guid>https://carrano.org/2023/09/transfer-metrics-needed-tracking/</guid><description>&lt;p>This (fiscal) year, I&amp;rsquo;m taking some next steps using the &lt;a href="https://carrano.org/2023/05/mit-digital-media-survey-results/">data produced by my digital media survey at MIT&lt;/a>. Now that we have a record of what media exist in the collections to the best of our knowledge, we can begin transferring the data off of them at a larger scale and into preservation and access storage. But wait… could I use this work as a representative sample to better plan for the future? Enter the Transfer Metrics Needed Tracking (TMNT) project.&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/TMNT_project_logo.png" alt="Transfer Metrics Needed Tracking in the style of the Teenage Mutant Ninja Turtles logo" />
-&lt;figcaption>Props to my colleague Chris Tanguay for making me aware of the TMNT logo generator website&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;h2 id="what-is-it">What is it?&lt;/h2>
-&lt;p>This is a project to record some basic numbers about the time and success rate of data transfer from digital media over the next year. This is similar to what other institutions have done, such as the British Library&amp;rsquo;s &lt;a href="https://bl.iro.bl.uk/concern/articles/ccc2d190-0f67-4982-b0a8-9adb5a04e83c?locale=en">Flashback project&lt;/a>.&lt;/p>
-&lt;p>For this project I&amp;rsquo;ve imported the media survey data into Airtable and linked it up with another base where we&amp;rsquo;ll use an interface to record the following info:&lt;/p>
-&lt;ul>
-&lt;li>Setup time&lt;/li>
-&lt;li>Transfer time and attempts&lt;/li>
-&lt;li>Transfer method&lt;/li>
-&lt;li>Overall success/failure&lt;/li>
-&lt;li>Extraction time and attempts (if not performed in the transfer process)&lt;/li>
-&lt;li>Packaging time and attempts (if not performed in the transfer process)&lt;/li>
-&lt;li>Data size&lt;/li>
-&lt;li>Computer used&lt;/li>
-&lt;/ul>
-&lt;p>The information we gather will be enhanced in the final data set by contextual information we already know from the survey: format types and media manufacturer information. The details around actually processing the files will be recorded with the rest of our processing metrics.&lt;/p>
-&lt;h2 id="why-are-you-doing-this">Why are you doing this??&lt;/h2>
-&lt;p>Really this is for planning purposes. We need to know about how long these projects might take in order to allocate enough time and person power to get the work done while balancing many other priorities. The project isn&amp;rsquo;t a way to establish benchmarks that need to be met in some sort of Taylorist archival transfer process nightmare scenario.&lt;/p>
-&lt;p>With a decent amount of a digital media backlog in existing collections, there will be many projects to transfer the data to a more stable medium over the coming years. At the same time, we&amp;rsquo;ll have new collections coming in. With a better sense of how much work we have in store, we can also make more informed decisions on whether we have the capacity to accept collections with substantial amounts of digital media or respectfully decline.&lt;/p>
-&lt;p>My hope is that this information will be useful to others as well, so I&amp;rsquo;ll to share my results out at the end and possibly along the way. Maybe somewhere else will do a similar project and we can compare numbers? In any event, grab a slice of pizza and check back for updates.&lt;/p></description></item><item><title>Digital media survey results</title><link>https://carrano.org/2023/05/mit-digital-media-survey-results/</link><pubDate>Wed, 03 May 2023 10:11:38 -0500</pubDate><guid>https://carrano.org/2023/05/mit-digital-media-survey-results/</guid><description>&lt;p>Over the last year, I&amp;rsquo;ve worked on a &lt;a href="https://carrano.org/2022/01/mit-digital-media-survey-01/">digital media survey&lt;/a> of our archival and distinctive collections at MIT Libraries. I mentioned in that post linked above I would update this blog along the way but that didn&amp;rsquo;t really happen, sorry friends!&lt;/p>
-&lt;h2 id="media-circus">Media circus&lt;/h2>
-&lt;p>Things went pretty well and a bit faster than I expected. It took me just over a year with some fits and starts to finish the whole survey process. The first stage was our archival and manuscript collections, of which, I was able to review over 300 boxes and a few dozen rare books and publications in 8 months.&lt;/p>
-&lt;p>Along the way, I transferred data from media we could in handle in house within collections that had a total of 2 or fewer pieces of media since it was convenient while the boxes were onsite. The small number ensured that we could get them done relatively easily and have a quick win of crossing a collection off the list with media needing to transfer data from.&lt;/p>
-&lt;p>After surveying the first stage of surveying, I started on the academic theses, which are also under our purview. The work to assemble the list of media from published material was started earlier when needing to find this information for publications and rare books in the main collections mentioned above. As these material have their metadata stored as MARC records in Alma, I went about putting together a similar list of material as with the archival records. Within Alma, I ran a number of &amp;ldquo;indication rules&amp;rdquo; looking in the 300 field, subfields a and e for the terms: &lt;code>dis*&lt;/code>, &lt;code>flopp*&lt;/code>, &lt;code>zip&lt;/code>,&lt;code>computer&lt;/code>, &lt;code>cartridge&lt;/code>, &lt;code>CD*&lt;/code>, &lt;code>DVD*&lt;/code>, &lt;code>USB&lt;/code>, and &lt;code>drive&lt;/code>. Additionally, local cataloging practice for a time was to use a call number prefix for media, often when those items were included with another print title with the same call number. I was able to assemble a list of these prefixes like CDROM, DSKETTE, etc. and search for them in Alma as well, in case this surfaced anything missed in the 300 field search. I combined the results into a spreadsheet, deduped them, and then got to work surveying and storing results in our media log tool.&lt;/p>
-&lt;p>Work on the theses took about another 4 months as getting them from offsite storage was just as time consuming as when doing so with the main part of the survey. With some of the these stored in boxes as a group, I often had to request many boxes just to get through a year with a few theses that contained external media. Ultimately, I was able to finish up everything by the end of February of this year.&lt;/p>
-&lt;h2 id="results">Results&lt;/h2>
-&lt;p>Here are the results from our the total survey (including theses). I&amp;rsquo;ve simplified CDs and DVDs to be a summary of all of their subtypes.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">Format&lt;/th>
-&lt;th style="text-align:right">Count&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">Floppy disk: 3.5 inch&lt;/td>
-&lt;td style="text-align:right">909&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">CD&lt;/td>
-&lt;td style="text-align:right">846&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Floppy disk: 5.25 inch&lt;/td>
-&lt;td style="text-align:right">394&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">DVD&lt;/td>
-&lt;td style="text-align:right">339&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Data tape&lt;/td>
-&lt;td style="text-align:right">278&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Data cartridge&lt;/td>
-&lt;td style="text-align:right">238&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Zip disk&lt;/td>
-&lt;td style="text-align:right">126&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Floppy disk: 8 inch&lt;/td>
-&lt;td style="text-align:right">49&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Jaz disk&lt;/td>
-&lt;td style="text-align:right">7&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Hard drive&lt;/td>
-&lt;td style="text-align:right">4&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Computer&lt;/td>
-&lt;td style="text-align:right">4&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Flash memory: USB&lt;/td>
-&lt;td style="text-align:right">3&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Overall, I found just slightly under 3000 pieces of digital media in our distinctive collections and another 250ish pieces of media included with theses. It’s thankfully much less than you might expect for a technology-focused place like MIT. The majority of media found were floppy and optical formats that we have established workflows and equipment to handle. Whether the content is readable or not is another story but we can make an attempt.&lt;/p>
-&lt;p>While we can handle most of the found formats, the survey revealed a sizable number of 8-inch floppy disks, data cartridges, and mainframe data tapes, that we don’t have an in-house solution for. Those results are concerning but this is exactly what we wanted to surface for planning purposes.&lt;/p>
-&lt;h2 id="lessons-learned">Lessons Learned&lt;/h2>
-&lt;p>Things didn’t always go smoothly, this survey ended up being an exercise in metadata remediation. We often encountered errors in box numbers, missing items, total lack of description, and completely misidentified things.&lt;/p>
-&lt;p>One particular frustration with the archival and manuscript collections was that 180 entries out of 640 turned out to be false positive matches for digital media. About half of those were from using the phrase “backup” or &amp;ldquo;back-up&amp;rdquo;, which was a false match 92 percent of the time. Often it really just meant paper backups. It turns out that despite seeing the words &amp;ldquo;backup&amp;rdquo; written on labels of a lot of the media I found, it was almost never entered into a finding aid in those cases.&lt;/p>
-&lt;h2 id="future-steps">Future steps&lt;/h2>
-&lt;p>This data has already been a great starting point for better understanding how much work is ahead in analyzing and transferring digital media and how we can plan to go about it. We&amp;rsquo;ve started dissecting the specifics of the data to prioritize some of it, such as institutional records we have a clear mandate to preserve and things from women and BIPOC related collections. In the next year, we&amp;rsquo;ll begin more work on getting though the media as well as establishing metrics on how long on average it takes to process different media types. This will help give us a better idea how long we will need to commit to some of the transfer projects.&lt;/p></description></item><item><title>Distressed Links</title><link>https://carrano.org/2022/07/distressed-links/</link><pubDate>Wed, 13 Jul 2022 08:50:02 -0400</pubDate><guid>https://carrano.org/2022/07/distressed-links/</guid><description>&lt;p>At work I&amp;rsquo;ve been crawling some form of the &lt;a href="https://now.mit.edu/">MIT COVID-19 response webpage&lt;/a> daily since early March 2020. In that time there have been a couple of domain name switches but it&amp;rsquo;s been pretty boring considering the scope and tragedy of the ongoing pandemic.&lt;/p>
-&lt;p>In June, I was reviewing some of our crawl reports for this seed and I noticed an unusual url in the host report: archive.org, i.e. the big brother of Archive-It, THE (with no respect to Ohio State) Internet Archive. Obviously, this shouldn&amp;rsquo;t happen unless the site was actually linking out to IA.&lt;/p>
-&lt;p>After some investigation, I found that there were a few links to IA! &lt;em>It&amp;rsquo;s web archives all the way down.&lt;/em> The strange thing was that the links were on the MIT Travel policy page, pointing to information from &lt;a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/">the Department of State&lt;/a> and &lt;a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/map-and-travel-notices.html">the CDC&lt;/a> (under &amp;ldquo;Additional Resources&amp;rdquo;) that is still actively maintained and people would need the most up-to-date information about. Instead, they were getting pandemic related travel info from late March!&lt;/p>
-&lt;p>Checking out the &lt;a href="https://wayback.archive-it.org/7963/*/https://now.mit.edu/policies/mit-travel-policy/">Archive-it Wayback captures for the MIT travel page&lt;/a>, I saw that this change happened around May 11. You can see the proper links on &lt;a href="https://wayback.archive-it.org/7963/20220509093052/https://now.mit.edu/policies/mit-travel-policy/">May 9&lt;/a> but then those links are removed on &lt;a href="https://wayback.archive-it.org/7963/20220511014346/https://now.mit.edu/policies/mit-travel-policy/">May 11&lt;/a> and then added back in &lt;a href="https://wayback.archive-it.org/7963/20220511205440/https://now.mit.edu/policies/mit-travel-policy/">later in the day&lt;/a>, but replaced with IA Wayback links. Weird! For their part, I was able to find the maintainers of the website and they fixed the links pretty quickly.&lt;/p>
-&lt;p>They didn&amp;rsquo;t tell me how this might of occurred but we can speculate a couple scenarios:&lt;/p>
-&lt;ol>
-&lt;li>Somebody accidently deleted those links when updating the website and had to go into IA out of ease or necessity to find what was there before. They then did a simple copy+paste instead of editing out the Wayback url prefix. In any event, maintain backups!&lt;/li>
-&lt;li>Or some link checking plug-in went awry and inserted a Wayback link in place of the original links, due to an error saying the page was no longer available (temporary 404, etc.).&lt;/li>
-&lt;/ol>
-&lt;p>Either way, the result was that the content was made to look outdated or old, kind of like how you can distress a piece of furniture to make it look vintage. I&amp;rsquo;m not about to yuck anyone&amp;rsquo;s yum but neither of those things are for me. While there was no ill intent here, you can see how easy it is to spread misinformation this way, especially if people aren&amp;rsquo;t looking closely. The pandemic isn&amp;rsquo;t over and people need up-to-date information to inform their decisions.&lt;/p>
-&lt;p>Link rot is a real problem and web archives have a place to play in mitigating that in information resources. However, current information shouldn&amp;rsquo;t be replaced by a snapshot of something in time. If we&amp;rsquo;re going to insert archived links into web pages either manually or via automation, the solutions to display them are already out there such as &lt;a href="https://robustlinks.mementoweb.org/">robust links&lt;/a>, where you can display both a current link and a web archived version very easily. You&amp;rsquo;ve then got the up-to-date info and a web archived link just in case. Make your links robust, not distressed!&lt;/p></description></item><item><title>Learning to walk again: starting a digital media survey</title><link>https://carrano.org/2022/01/mit-digital-media-survey-01/</link><pubDate>Tue, 25 Jan 2022 20:45:52 -0500</pubDate><guid>https://carrano.org/2022/01/mit-digital-media-survey-01/</guid><description>&lt;p>In Ricky Erway&amp;rsquo;s foundational instructional guide, &lt;a href="https://www.oclc.org/research/publications/2012/oclcresearch-managing-born-digital-physical-media.html">&amp;ldquo;You&amp;rsquo;ve Got to Walk Before You Can Run: First Steps for Managing Born-Digital Content Received on Physical Media&amp;rdquo;&lt;/a>, we learn that &amp;ldquo;walk&amp;rdquo; in this context means to know about the physical media that you have in your collection, the where, the how much, and the what type. This is also related to the archival principles of &lt;a href="https://dictionary.archivists.org/entry/physical-control.html">physical&lt;/a> and &lt;a href="https://dictionary.archivists.org/entry/intellectual-control.html">intellectual control&lt;/a> of collections. This report inspired many archival institutions to begin surveying their collections for born-digital media as a basic starting point to approaching born-digital processing. The trend included multiple rounds of &lt;a href="https://www2.archivists.org/groups/manuscript-repositories-section/jump-in-initiative-0">SAA&amp;rsquo;s &amp;ldquo;Jump-in&amp;rdquo; initiative&lt;/a> which encouraged repositories to do surveys and share their results.&lt;/p>
-&lt;p>Where I work, the MIT Libraries, for various reasons, did not do a survey or partake in the Jump-in initiatives. There were efforts to survey some collections but there wasn&amp;rsquo;t anything comprehensive. At the same time, there was some transfer of material off of digital media found in collections. So we weren&amp;rsquo;t walking or jumping but we would do random sprints and then collapse into a crawl, gasping for breath while working on other projects that came along.&lt;/p>
-&lt;p>In recent years, I&amp;rsquo;ve worked to formalize our &lt;a href="https://wikis.mit.edu/confluence/x/8xmuC">procedures for transferring content&lt;/a> off of born-digital physical media and I feel like we&amp;rsquo;re in a good place to do that work for common media types. In 2019, I began the start of work for a media survey but was delayed due to the pandemic (surprise!). When I regained the ability to access the collections again in fall 2021, I began the survey work in earnest.&lt;/p>
-&lt;h2 id="goals">Goals&lt;/h2>
-&lt;p>In starting this work I have a few goals for what we hope to get out of it. As you might expect, I want to figure out what media we have and where it is! Beyond this simple knowledge, doing this work will give us a more holistic understanding of the media in our collection that can inform our future processing efforts, appraisal, staffing, and what equipment we may need. While all of this media is at some level of risk remaining stored in these formats, knowing the collections that contain the media can help us take an EDISJ approach in prioritizing the transfer of content by and about white women and people of color of all genders.&lt;/p>
-&lt;h2 id="looking-for-leads">Looking for leads&lt;/h2>
-&lt;p>We started the survey process by developing a list of terms related to digital media, which we could then search for in our ArchivesSpace repository and create a report from the API with: Floppy, Floppies, Disc, Discs, Disk, Disks, Diskette, Diskettes, CD, CDs, CD-rom, CD-roms, DVD, DVDs, USB, Hard drive, Flash drive, Digital, Zip, Data tape, Data tapes, Thumb drive, Backup, Backups, Cartridge, Cartridges.&lt;/p>
-&lt;p>Using this list we ended up with a pretty long CSV of possible elements within finding aids and accessions to investigate. To make this list a little more manageable, I separated out the terms that were the result of just searching &amp;ldquo;digital&amp;rdquo; to possibly work on at a later stage of the process, as these would most like contain the most false positives.&lt;/p>
-&lt;p>I started going through the remaining list for any false positives or duplicate entries. We ended up with 545 entries, which isn&amp;rsquo;t that solid of a number as in many cases I can&amp;rsquo;t tell whether description is in aggregate or an item level. I used formulas to total up the frequency per search term and the number of results per archival collection which I can use as a starting point to figure out which collections to call first. I then took the paired down list and bulk imported them into an Aeon &amp;ldquo;activity&amp;rdquo; for eventually requesting their boxes from storage.&lt;/p>
-&lt;h2 id="how-to-record-survey-results">How to record survey results&lt;/h2>
-&lt;p>In planning for this survey we needed a method to record our results once the boxes are called from storage and we get that sweet plastic, magnetic, and optical substrate into our hands. That&amp;rsquo;s where the media log will come in!&lt;/p>
-&lt;p>Archivists at other institutions developed multiple media logs (&lt;a href="https://github.com/NYULibraries/medialog">NYU&lt;/a> and &lt;a href="https://github.com/RockefellerArchiveCenter/dm_log">Rockefeller Archive Center&lt;/a>, for instance) for similar situations as us, recording the presence of digital media in collections, it&amp;rsquo;s type, and whether the content has been migrated to a more accessible medium. These other instances caught the eye of staff members here years ago and we had &lt;a href="https://github.com/MITLibraries/adml">a version that was spun up for us&lt;/a> (but rewritten in Java, not sure why&amp;hellip;). The app sat largely unused since that time, when the pandemic started it was fully taken offline due to a need of a infrastructure migration and the realization that it wouldn&amp;rsquo;t be used for some time.&lt;/p>
-&lt;p>As part of the survey prep we decided to get the app running again because it seemed like it would fit our needs. This took a little while with some support from staff in digital library services but we&amp;rsquo;re back up and running. We made some minor additions for things that might be useful like label info and categories of media that weren&amp;rsquo;t present but the app largely remains similar.&lt;/p>
-&lt;h2 id="next-steps">Next steps&lt;/h2>
-&lt;p>With all this geared up, we were hoping to get started with actually &lt;em>doing&lt;/em> the survey at the start of this new year but with the pandemic raging I&amp;rsquo;ve been fully working from home this past month. Delayed again! But what can you do? Before going remote again, I already had done some calculations based on the number of boxes I&amp;rsquo;m allowed to call to campus (we use offsite storage), the number of days I work on campus during a week, and the time to do the survey against the time remaining and it would be impossible to finish by the end of the fiscal year (when I wanted to complete the survey).&lt;/p>
-&lt;p>So even with the month delay, things were already a bit behind. I&amp;rsquo;m ready to push ahead with the actual survey regardless of the time it takes and hope to share some more updates along the way!&lt;/p></description></item><item><title>A short look @ Kids dot US, a failed public/private web experiment [for kids]</title><link>https://carrano.org/2021/08/kids-dot-us/</link><pubDate>Tue, 24 Aug 2021 20:26:29 -0400</pubDate><guid>https://carrano.org/2021/08/kids-dot-us/</guid><description>&lt;p>A little while ago I went down a Wikipedia rabbit hole and ended up at the the Wikipedia article for the &lt;a href="https://en.wikipedia.org/wiki/.us">.us domain&lt;/a>. I was particularly intrigued by the section for Kids.us. Have you heard of it? I know I had no idea what it was.&lt;/p>
-&lt;p>As the Wikipedia article states, it was a subdomain of the .us domain made specifically for kids and created by U.S. law! Through an act of Congress in 2002, lawmakers created the subdomain to be used by content providers to create kid-centric websites. It never really took off and by the end there were only 6 active websites left on the subdomain: Nick, NickJr, PBSkids, Smithsonian, and two identical sites selling trampolines.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>This peaked my interest. What were these websites like? Was there any more information out there? Why did the U.S. government ever think this was a good idea?&lt;/p>
-&lt;h2 id="birthing-a-subdomain">Birthing a subdomain&lt;/h2>
-&lt;p>In the early 2000s, just as today, politicians were &lt;em>concerned&lt;/em> about kids on the internet. Especially how sites were using common word web domains to host pornography, which many people, including children, would stumble upon accidentally. A bipartisan group of lawmakers felt the solution would be to create a domain where there would only be appropriate content for children, which many of them described akin to the &amp;ldquo;children&amp;rsquo;s section of a library&amp;rdquo; but of course probably never spoke to a children&amp;rsquo;s librarian.&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>The original idea was to create a new TLD (top-level domain) called dot kids (.kids) but there was some controversy over the US throwing its weight around to impose US law to a domain that would be used internationally and also the bill&amp;rsquo;s sponsors felt it would take ICANN forever to actually deliberate on whether they would agree to create this for them. In light of this, the focus switched to an area more under US control, the .us domain.&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>So as mentioned above, they created an act (the Dot Kids Implementation and Efficiency Act of 2002) and the kids dot us subdomain (.kids.us) was born. The law tasked the company under contract with &lt;a href="https://en.wikipedia.org/wiki/National_Telecommunications_and_Information_Administration">NTIA&lt;/a> to administer the .us domain at the time, &lt;a href="https://en.wikipedia.org/wiki/Neustar">Neustar&lt;/a>, to manage the subdomain and the content moderation of the sites that registered.&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="we-have-rules">We have rules&lt;/h2>
-&lt;p>Neustar started up the service and got a decent amount of registrants but not a lot of &lt;code>#content&lt;/code>. It was pretty strict what could go on the site - no external hyperlinks (a walled garden), no &amp;ldquo;two-way and multi-user interactive services&amp;rdquo; (email, chat, etc.), nothing that would break existing laws, plus no: mature content, pornography, inappropriate language, violence, hate speech, drugs, alcohol, tobacco, ambling, weapons, and criminal activity. In order finance the administration of these rules, each registration came with a hefty price tag plus a &amp;ldquo;content approval fee&amp;rdquo;, which in turn probably stifled demand combined with the already stringent content rules.&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup> &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="were-the-kids-of-the-dot-us-woah">We&amp;rsquo;re the kids of the dot US (woah)&lt;/h2>
-&lt;p>At its peak, Kids dot US only had about 24 active websites, a far cry from what the crafters of the act that established it envisioned. The main kids.us site indexed these pages on the homepage. Most just consisted of Flash games which included hyperlinks, i.e. violated the rules, directing users to the download the required software (safest software out there at the time!). There also seemed to be a bunch of sites that had links to outside sites but they weren&amp;rsquo;t hyperlinked, so really any kid who learned copy/paste would be well on their way to the big bad internet.&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup> &lt;sup id="fnref1:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>Below are a selection of the mundane to strange screenshots I saw when browsing the archived website.&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/kidsdotus_01.png" alt="screenshot of early kids.us homepage" />
-&lt;figcaption>original kids.us index page&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/kidsdotus_pbskids01.png" alt="screenshot of pbskids.kids.us" />
-&lt;figcaption>clearly part of the conspiracy&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/kidsdotus_americaslibrary01.png" alt="screenshot of AmericasLibrary.kids.us" />
-&lt;figcaption>everyone knows what America&amp;#39;s library is&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/kidsdotus_minnesota01.png" alt="screenshot of minnesosta.kids.us" />
-&lt;figcaption>they do stuff&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/kidsdotus_noaa01.png" alt="screenshot of noaa.kids.us" />
-&lt;figcaption>Owlie Skywarn is actually pretty cool&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/kidsdotus_noaa02.png" alt="screenshot of noaa.kids.us" />
-&lt;figcaption>lightning is dangerous, but also fun!&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/kidsdotus_summum01.png" alt="screenshot of summum.kids.us" />
-&lt;figcaption>mummification, for kids!&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/kidsdotus_summum02.png" alt="screenshot of &amp;amp;lsquo;summum.kids.us/mummybear&amp;amp;rsquo;" />
-&lt;figcaption>did I mention the mummy people had a mummy bear mascot?&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/kidsdotus_stnicholas.png" alt="screenshot of stnicholas.kids.us" />
-&lt;figcaption>Santa truthers were there too&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;h2 id="you-dont-have-to-go-home-but-you-cant-stay-here">You don&amp;rsquo;t have to go home but you can&amp;rsquo;t stay here&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img src="https://carrano.org/posts/media/kidsdotus_knex01.png" alt="screenshot of knex.kids.us" />
-&lt;figcaption>please set it aside, and do not use it&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>Kids dot US shutdown officially in 2012 and an education advisory group set to the task of evaluating whether it was worth it to keep it going in some way. Spoiler alert: it wasn&amp;rsquo;t. &lt;sup id="fnref2:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>The limited scope of the subdomain makes it an ideal use case if someone wanted to do research on what went on there from a number of perspectives. It could be something similar to &lt;a href="https://doi.org/10.1007/s00799-016-0202-6">the study of another short lived domain, Yugoslavia (.yu)&lt;/a>, or something different entirely! Take a look at the &lt;a href="https://web.archive.org/web/20050403142136/http://www.kids.us/sitelist.html?catALL">archived 2005 site&lt;/a> of the index (around the time with the peak number if sites) either in Wayback or Oldweb.today (for flash!) and enjoy the ride.&lt;/p>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>&lt;a href="https://en.wikipedia.org/wiki/.us#Kids.us">Kids.us Wikipedia article section&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2">
-&lt;p>&lt;a href="https://web.archive.org/web/20150402092915/http://www.neustar.us/wp-content/uploads/2014/10/education-advisory-committee-final-report.pdf">Final Report of the Kids.us Education Advisory Committee&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3">
-&lt;p>&lt;a href="https://purl.fdlp.gov/GPO/LPS67177">S. 2537, H.R. 3833 : Dot Kids Implementation and Efficiency Act of 2002 : hearing before the Subcommittee on Science, Technology, and Space of the Committee on Commerce, Science, and Transportation, United States Senate, One Hundred Seventh Congress, second session, September 12, 2002. &lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4">
-&lt;p>&lt;a href="https://purl.fdlp.gov/GPO/LPS17355">Dot Kids Name Act of 2001. Hearing before the Subcommittee on Telecommunications and the Internet of the Committee on Energy and Commerce. House of Representatives, One Hundred Seventh Congress, First Session on H.R. 2417&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5">
-&lt;p>&lt;a href="https://www.govinfo.gov/app/details/PLAW-107publ317">Public Law 107 - 317 - Dot Kids Implementation and Efficiency Act of 2002&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6">
-&lt;p>&lt;a href="https://web.archive.org/web/20040409145510/http://www.kids.us/content_policy/content.html">Kids.us Content Policies&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7">
-&lt;p>&lt;a href="https://circleid.com/posts/the_small_but_limitless_world_of_kidsus/">The Small, But Limitless World of .kids.us&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8">
-&lt;p>&lt;a href="https://purl.fdlp.gov/GPO/LPS54570">The &amp;ldquo;dot kids&amp;rdquo; Internet domain: protecting children online: hearing before the Subcommittee on Telecommunications and the Internet of the Committee on Energy and Commerce, House of Representatives, One Hundred Eighth Congress, second session, May 6, 2004&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description></item><item><title>Hello World</title><link>https://carrano.org/2021/05/hello-world/</link><pubDate>Sun, 09 May 2021 04:00:50 -0400</pubDate><guid>https://carrano.org/2021/05/hello-world/</guid><description>&lt;p>Hi there! I&amp;rsquo;ve decided to break ground on a new website for myself that&amp;rsquo;s more under my control and at my own domain.&lt;/p>
-&lt;p>I&amp;rsquo;m moving away from my old site &lt;a href="https://josephcarrano.wordpress.com">josephcarrano.wordpress.com&lt;/a> and casting it into the abandoned graveyard. In recent years, I&amp;rsquo;ve been loath to create new posts not only because I&amp;rsquo;m lazy but also because I hate the thought of publishing content to URLs that could easily break.&lt;/p>
-&lt;p>Despite this worry, I won&amp;rsquo;t be migrating content at the moment or setting up redirects because I don&amp;rsquo;t feel like paying WordPress for the redirect service and it&amp;rsquo;s simple enough to leave it there neglected as it has been for the last few years. I&amp;rsquo;m mainly leaving it up in the interest of preventing link rot on the few posts that people found useful. If you want to check out the posts there, they should remain as long as wordpress.com remains free and functioning online. Maybe I&amp;rsquo;ll reconsider this later.&lt;/p>
-&lt;p>Anyway, I&amp;rsquo;m hoping to post a little bit more now. As much as once or twice a year even! And if you&amp;rsquo;re interested, you&amp;rsquo;ll find that content here.&lt;/p></description></item><item><title>About me</title><link>https://carrano.org/about/</link><pubDate>Mon, 26 Apr 2021 22:50:50 -0400</pubDate><guid>https://carrano.org/about/</guid><description>&lt;p>Hi! I’m Joe Carrano. This is my personal professional site. I&amp;rsquo;m a digital archivist at MIT Libraries where I work on saving both old and new bits for future generations. Previously, I was the &lt;a href="http://www.digitalpreservation.gov/ndsr/documents/GUL_Proposal_Redacted.pdf">National Digital Stewardship Resident&lt;/a> at Georgetown University Library. I have a B.A. in history and political science from the University of Connecticut and dual master’s degrees from the University of Maryland, College Park, one in Library Science focusing on Archives and one in History focusing on U.S. History. The site you&amp;rsquo;re on serves mainly as a place to put some (infrequent) blog posts on archives, history, and the digital world. If interested, stay and read more or contact me on &lt;a href="https://twitter.com/joecar25">twitter&lt;/a> or &lt;a href="https://digipres.club">digipres.club&lt;/a>.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joe Carrano</title><link>https://carrano.org/</link><description>Recent content on Joe Carrano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC-BY</copyright><lastBuildDate>Wed, 27 Sep 2023 08:42:40 -0400</lastBuildDate><atom:link href="https://carrano.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Transfer Metrics Needed Tracking (TMNT)</title><link>https://carrano.org/2023/09/transfer-metrics-needed-tracking/</link><pubDate>Wed, 27 Sep 2023 08:42:40 -0400</pubDate><guid>https://carrano.org/2023/09/transfer-metrics-needed-tracking/</guid><description>&lt;p&gt;This (fiscal) year, I&amp;rsquo;m taking some next steps using the &lt;a href="https://carrano.org/2023/05/mit-digital-media-survey-results/"&gt;data produced by my digital media survey at MIT&lt;/a&gt;. Now that we have a record of what media exist in the collections to the best of our knowledge, we can begin transferring the data off of them at a larger scale and into preservation and access storage. But wait… could I use this work as a representative sample to better plan for the future? Enter the Transfer Metrics Needed Tracking (TMNT) project.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/TMNT_project_logo.png" alt="Transfer Metrics Needed Tracking in the style of the Teenage Mutant Ninja Turtles logo" /&gt;
+&lt;figcaption&gt;Props to my colleague Chris Tanguay for making me aware of the TMNT logo generator website&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="what-is-it"&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;This is a project to record some basic numbers about the time and success rate of data transfer from digital media over the next year. This is similar to what other institutions have done, such as the British Library&amp;rsquo;s &lt;a href="https://bl.iro.bl.uk/concern/articles/ccc2d190-0f67-4982-b0a8-9adb5a04e83c?locale=en"&gt;Flashback project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For this project I&amp;rsquo;ve imported the media survey data into Airtable and linked it up with another base where we&amp;rsquo;ll use an interface to record the following info:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup time&lt;/li&gt;
+&lt;li&gt;Transfer time and attempts&lt;/li&gt;
+&lt;li&gt;Transfer method&lt;/li&gt;
+&lt;li&gt;Overall success/failure&lt;/li&gt;
+&lt;li&gt;Extraction time and attempts (if not performed in the transfer process)&lt;/li&gt;
+&lt;li&gt;Packaging time and attempts (if not performed in the transfer process)&lt;/li&gt;
+&lt;li&gt;Data size&lt;/li&gt;
+&lt;li&gt;Computer used&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The information we gather will be enhanced in the final data set by contextual information we already know from the survey: format types and media manufacturer information. The details around actually processing the files will be recorded with the rest of our processing metrics.&lt;/p&gt;
+&lt;h2 id="why-are-you-doing-this"&gt;Why are you doing this??&lt;/h2&gt;
+&lt;p&gt;Really this is for planning purposes. We need to know about how long these projects might take in order to allocate enough time and person power to get the work done while balancing many other priorities. The project isn&amp;rsquo;t a way to establish benchmarks that need to be met in some sort of Taylorist archival transfer process nightmare scenario.&lt;/p&gt;
+&lt;p&gt;With a decent amount of a digital media backlog in existing collections, there will be many projects to transfer the data to a more stable medium over the coming years. At the same time, we&amp;rsquo;ll have new collections coming in. With a better sense of how much work we have in store, we can also make more informed decisions on whether we have the capacity to accept collections with substantial amounts of digital media or respectfully decline.&lt;/p&gt;
+&lt;p&gt;My hope is that this information will be useful to others as well, so I&amp;rsquo;ll to share my results out at the end and possibly along the way. Maybe somewhere else will do a similar project and we can compare numbers? In any event, grab a slice of pizza and check back for updates.&lt;/p&gt;</description></item><item><title>Digital media survey results</title><link>https://carrano.org/2023/05/mit-digital-media-survey-results/</link><pubDate>Wed, 03 May 2023 10:11:38 -0500</pubDate><guid>https://carrano.org/2023/05/mit-digital-media-survey-results/</guid><description>&lt;p&gt;Over the last year, I&amp;rsquo;ve worked on a &lt;a href="https://carrano.org/2022/01/mit-digital-media-survey-01/"&gt;digital media survey&lt;/a&gt; of our archival and distinctive collections at MIT Libraries. I mentioned in that post linked above I would update this blog along the way but that didn&amp;rsquo;t really happen, sorry friends!&lt;/p&gt;
+&lt;h2 id="media-circus"&gt;Media circus&lt;/h2&gt;
+&lt;p&gt;Things went pretty well and a bit faster than I expected. It took me just over a year with some fits and starts to finish the whole survey process. The first stage was our archival and manuscript collections, of which, I was able to review over 300 boxes and a few dozen rare books and publications in 8 months.&lt;/p&gt;
+&lt;p&gt;Along the way, I transferred data from media we could in handle in house within collections that had a total of 2 or fewer pieces of media since it was convenient while the boxes were onsite. The small number ensured that we could get them done relatively easily and have a quick win of crossing a collection off the list with media needing to transfer data from.&lt;/p&gt;
+&lt;p&gt;After surveying the first stage of surveying, I started on the academic theses, which are also under our purview. The work to assemble the list of media from published material was started earlier when needing to find this information for publications and rare books in the main collections mentioned above. As these material have their metadata stored as MARC records in Alma, I went about putting together a similar list of material as with the archival records. Within Alma, I ran a number of &amp;ldquo;indication rules&amp;rdquo; looking in the 300 field, subfields a and e for the terms: &lt;code&gt;dis*&lt;/code&gt;, &lt;code&gt;flopp*&lt;/code&gt;, &lt;code&gt;zip&lt;/code&gt;,&lt;code&gt;computer&lt;/code&gt;, &lt;code&gt;cartridge&lt;/code&gt;, &lt;code&gt;CD*&lt;/code&gt;, &lt;code&gt;DVD*&lt;/code&gt;, &lt;code&gt;USB&lt;/code&gt;, and &lt;code&gt;drive&lt;/code&gt;. Additionally, local cataloging practice for a time was to use a call number prefix for media, often when those items were included with another print title with the same call number. I was able to assemble a list of these prefixes like CDROM, DSKETTE, etc. and search for them in Alma as well, in case this surfaced anything missed in the 300 field search. I combined the results into a spreadsheet, deduped them, and then got to work surveying and storing results in our media log tool.&lt;/p&gt;
+&lt;p&gt;Work on the theses took about another 4 months as getting them from offsite storage was just as time consuming as when doing so with the main part of the survey. With some of the these stored in boxes as a group, I often had to request many boxes just to get through a year with a few theses that contained external media. Ultimately, I was able to finish up everything by the end of February of this year.&lt;/p&gt;
+&lt;h2 id="results"&gt;Results&lt;/h2&gt;
+&lt;p&gt;Here are the results from our the total survey (including theses). I&amp;rsquo;ve simplified CDs and DVDs to be a summary of all of their subtypes.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Format&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Count&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Floppy disk: 3.5 inch&lt;/td&gt;
+&lt;td style="text-align: right"&gt;909&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;CD&lt;/td&gt;
+&lt;td style="text-align: right"&gt;846&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Floppy disk: 5.25 inch&lt;/td&gt;
+&lt;td style="text-align: right"&gt;394&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;DVD&lt;/td&gt;
+&lt;td style="text-align: right"&gt;339&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Data tape&lt;/td&gt;
+&lt;td style="text-align: right"&gt;278&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Data cartridge&lt;/td&gt;
+&lt;td style="text-align: right"&gt;238&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Zip disk&lt;/td&gt;
+&lt;td style="text-align: right"&gt;126&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Floppy disk: 8 inch&lt;/td&gt;
+&lt;td style="text-align: right"&gt;49&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Jaz disk&lt;/td&gt;
+&lt;td style="text-align: right"&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Hard drive&lt;/td&gt;
+&lt;td style="text-align: right"&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Computer&lt;/td&gt;
+&lt;td style="text-align: right"&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Flash memory: USB&lt;/td&gt;
+&lt;td style="text-align: right"&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Overall, I found just slightly under 3000 pieces of digital media in our distinctive collections and another 250ish pieces of media included with theses. It’s thankfully much less than you might expect for a technology-focused place like MIT. The majority of media found were floppy and optical formats that we have established workflows and equipment to handle. Whether the content is readable or not is another story but we can make an attempt.&lt;/p&gt;
+&lt;p&gt;While we can handle most of the found formats, the survey revealed a sizable number of 8-inch floppy disks, data cartridges, and mainframe data tapes, that we don’t have an in-house solution for. Those results are concerning but this is exactly what we wanted to surface for planning purposes.&lt;/p&gt;
+&lt;h2 id="lessons-learned"&gt;Lessons Learned&lt;/h2&gt;
+&lt;p&gt;Things didn’t always go smoothly, this survey ended up being an exercise in metadata remediation. We often encountered errors in box numbers, missing items, total lack of description, and completely misidentified things.&lt;/p&gt;
+&lt;p&gt;One particular frustration with the archival and manuscript collections was that 180 entries out of 640 turned out to be false positive matches for digital media. About half of those were from using the phrase “backup” or &amp;ldquo;back-up&amp;rdquo;, which was a false match 92 percent of the time. Often it really just meant paper backups. It turns out that despite seeing the words &amp;ldquo;backup&amp;rdquo; written on labels of a lot of the media I found, it was almost never entered into a finding aid in those cases.&lt;/p&gt;
+&lt;h2 id="future-steps"&gt;Future steps&lt;/h2&gt;
+&lt;p&gt;This data has already been a great starting point for better understanding how much work is ahead in analyzing and transferring digital media and how we can plan to go about it. We&amp;rsquo;ve started dissecting the specifics of the data to prioritize some of it, such as institutional records we have a clear mandate to preserve and things from women and BIPOC related collections. In the next year, we&amp;rsquo;ll begin more work on getting though the media as well as establishing metrics on how long on average it takes to process different media types. This will help give us a better idea how long we will need to commit to some of the transfer projects.&lt;/p&gt;</description></item><item><title>Distressed Links</title><link>https://carrano.org/2022/07/distressed-links/</link><pubDate>Wed, 13 Jul 2022 08:50:02 -0400</pubDate><guid>https://carrano.org/2022/07/distressed-links/</guid><description>&lt;p&gt;At work I&amp;rsquo;ve been crawling some form of the &lt;a href="https://now.mit.edu/"&gt;MIT COVID-19 response webpage&lt;/a&gt; daily since early March 2020. In that time there have been a couple of domain name switches but it&amp;rsquo;s been pretty boring considering the scope and tragedy of the ongoing pandemic.&lt;/p&gt;
+&lt;p&gt;In June, I was reviewing some of our crawl reports for this seed and I noticed an unusual url in the host report: archive.org, i.e. the big brother of Archive-It, THE (with no respect to Ohio State) Internet Archive. Obviously, this shouldn&amp;rsquo;t happen unless the site was actually linking out to IA.&lt;/p&gt;
+&lt;p&gt;After some investigation, I found that there were a few links to IA! &lt;em&gt;It&amp;rsquo;s web archives all the way down.&lt;/em&gt; The strange thing was that the links were on the MIT Travel policy page, pointing to information from &lt;a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/"&gt;the Department of State&lt;/a&gt; and &lt;a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/map-and-travel-notices.html"&gt;the CDC&lt;/a&gt; (under &amp;ldquo;Additional Resources&amp;rdquo;) that is still actively maintained and people would need the most up-to-date information about. Instead, they were getting pandemic related travel info from late March!&lt;/p&gt;
+&lt;p&gt;Checking out the &lt;a href="https://wayback.archive-it.org/7963/*/https://now.mit.edu/policies/mit-travel-policy/"&gt;Archive-it Wayback captures for the MIT travel page&lt;/a&gt;, I saw that this change happened around May 11. You can see the proper links on &lt;a href="https://wayback.archive-it.org/7963/20220509093052/https://now.mit.edu/policies/mit-travel-policy/"&gt;May 9&lt;/a&gt; but then those links are removed on &lt;a href="https://wayback.archive-it.org/7963/20220511014346/https://now.mit.edu/policies/mit-travel-policy/"&gt;May 11&lt;/a&gt; and then added back in &lt;a href="https://wayback.archive-it.org/7963/20220511205440/https://now.mit.edu/policies/mit-travel-policy/"&gt;later in the day&lt;/a&gt;, but replaced with IA Wayback links. Weird! For their part, I was able to find the maintainers of the website and they fixed the links pretty quickly.&lt;/p&gt;
+&lt;p&gt;They didn&amp;rsquo;t tell me how this might of occurred but we can speculate a couple scenarios:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Somebody accidently deleted those links when updating the website and had to go into IA out of ease or necessity to find what was there before. They then did a simple copy+paste instead of editing out the Wayback url prefix. In any event, maintain backups!&lt;/li&gt;
+&lt;li&gt;Or some link checking plug-in went awry and inserted a Wayback link in place of the original links, due to an error saying the page was no longer available (temporary 404, etc.).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Either way, the result was that the content was made to look outdated or old, kind of like how you can distress a piece of furniture to make it look vintage. I&amp;rsquo;m not about to yuck anyone&amp;rsquo;s yum but neither of those things are for me. While there was no ill intent here, you can see how easy it is to spread misinformation this way, especially if people aren&amp;rsquo;t looking closely. The pandemic isn&amp;rsquo;t over and people need up-to-date information to inform their decisions.&lt;/p&gt;
+&lt;p&gt;Link rot is a real problem and web archives have a place to play in mitigating that in information resources. However, current information shouldn&amp;rsquo;t be replaced by a snapshot of something in time. If we&amp;rsquo;re going to insert archived links into web pages either manually or via automation, the solutions to display them are already out there such as &lt;a href="https://robustlinks.mementoweb.org/"&gt;robust links&lt;/a&gt;, where you can display both a current link and a web archived version very easily. You&amp;rsquo;ve then got the up-to-date info and a web archived link just in case. Make your links robust, not distressed!&lt;/p&gt;</description></item><item><title>Learning to walk again: starting a digital media survey</title><link>https://carrano.org/2022/01/mit-digital-media-survey-01/</link><pubDate>Tue, 25 Jan 2022 20:45:52 -0500</pubDate><guid>https://carrano.org/2022/01/mit-digital-media-survey-01/</guid><description>&lt;p&gt;In Ricky Erway&amp;rsquo;s foundational instructional guide, &lt;a href="https://www.oclc.org/research/publications/2012/oclcresearch-managing-born-digital-physical-media.html"&gt;&amp;ldquo;You&amp;rsquo;ve Got to Walk Before You Can Run: First Steps for Managing Born-Digital Content Received on Physical Media&amp;rdquo;&lt;/a&gt;, we learn that &amp;ldquo;walk&amp;rdquo; in this context means to know about the physical media that you have in your collection, the where, the how much, and the what type. This is also related to the archival principles of &lt;a href="https://dictionary.archivists.org/entry/physical-control.html"&gt;physical&lt;/a&gt; and &lt;a href="https://dictionary.archivists.org/entry/intellectual-control.html"&gt;intellectual control&lt;/a&gt; of collections. This report inspired many archival institutions to begin surveying their collections for born-digital media as a basic starting point to approaching born-digital processing. The trend included multiple rounds of &lt;a href="https://www2.archivists.org/groups/manuscript-repositories-section/jump-in-initiative-0"&gt;SAA&amp;rsquo;s &amp;ldquo;Jump-in&amp;rdquo; initiative&lt;/a&gt; which encouraged repositories to do surveys and share their results.&lt;/p&gt;
+&lt;p&gt;Where I work, the MIT Libraries, for various reasons, did not do a survey or partake in the Jump-in initiatives. There were efforts to survey some collections but there wasn&amp;rsquo;t anything comprehensive. At the same time, there was some transfer of material off of digital media found in collections. So we weren&amp;rsquo;t walking or jumping but we would do random sprints and then collapse into a crawl, gasping for breath while working on other projects that came along.&lt;/p&gt;
+&lt;p&gt;In recent years, I&amp;rsquo;ve worked to formalize our &lt;a href="https://wikis.mit.edu/confluence/x/8xmuC"&gt;procedures for transferring content&lt;/a&gt; off of born-digital physical media and I feel like we&amp;rsquo;re in a good place to do that work for common media types. In 2019, I began the start of work for a media survey but was delayed due to the pandemic (surprise!). When I regained the ability to access the collections again in fall 2021, I began the survey work in earnest.&lt;/p&gt;
+&lt;h2 id="goals"&gt;Goals&lt;/h2&gt;
+&lt;p&gt;In starting this work I have a few goals for what we hope to get out of it. As you might expect, I want to figure out what media we have and where it is! Beyond this simple knowledge, doing this work will give us a more holistic understanding of the media in our collection that can inform our future processing efforts, appraisal, staffing, and what equipment we may need. While all of this media is at some level of risk remaining stored in these formats, knowing the collections that contain the media can help us take an EDISJ approach in prioritizing the transfer of content by and about white women and people of color of all genders.&lt;/p&gt;
+&lt;h2 id="looking-for-leads"&gt;Looking for leads&lt;/h2&gt;
+&lt;p&gt;We started the survey process by developing a list of terms related to digital media, which we could then search for in our ArchivesSpace repository and create a report from the API with: Floppy, Floppies, Disc, Discs, Disk, Disks, Diskette, Diskettes, CD, CDs, CD-rom, CD-roms, DVD, DVDs, USB, Hard drive, Flash drive, Digital, Zip, Data tape, Data tapes, Thumb drive, Backup, Backups, Cartridge, Cartridges.&lt;/p&gt;
+&lt;p&gt;Using this list we ended up with a pretty long CSV of possible elements within finding aids and accessions to investigate. To make this list a little more manageable, I separated out the terms that were the result of just searching &amp;ldquo;digital&amp;rdquo; to possibly work on at a later stage of the process, as these would most like contain the most false positives.&lt;/p&gt;
+&lt;p&gt;I started going through the remaining list for any false positives or duplicate entries. We ended up with 545 entries, which isn&amp;rsquo;t that solid of a number as in many cases I can&amp;rsquo;t tell whether description is in aggregate or an item level. I used formulas to total up the frequency per search term and the number of results per archival collection which I can use as a starting point to figure out which collections to call first. I then took the paired down list and bulk imported them into an Aeon &amp;ldquo;activity&amp;rdquo; for eventually requesting their boxes from storage.&lt;/p&gt;
+&lt;h2 id="how-to-record-survey-results"&gt;How to record survey results&lt;/h2&gt;
+&lt;p&gt;In planning for this survey we needed a method to record our results once the boxes are called from storage and we get that sweet plastic, magnetic, and optical substrate into our hands. That&amp;rsquo;s where the media log will come in!&lt;/p&gt;
+&lt;p&gt;Archivists at other institutions developed multiple media logs (&lt;a href="https://github.com/NYULibraries/medialog"&gt;NYU&lt;/a&gt; and &lt;a href="https://github.com/RockefellerArchiveCenter/dm_log"&gt;Rockefeller Archive Center&lt;/a&gt;, for instance) for similar situations as us, recording the presence of digital media in collections, it&amp;rsquo;s type, and whether the content has been migrated to a more accessible medium. These other instances caught the eye of staff members here years ago and we had &lt;a href="https://github.com/MITLibraries/adml"&gt;a version that was spun up for us&lt;/a&gt; (but rewritten in Java, not sure why&amp;hellip;). The app sat largely unused since that time, when the pandemic started it was fully taken offline due to a need of a infrastructure migration and the realization that it wouldn&amp;rsquo;t be used for some time.&lt;/p&gt;
+&lt;p&gt;As part of the survey prep we decided to get the app running again because it seemed like it would fit our needs. This took a little while with some support from staff in digital library services but we&amp;rsquo;re back up and running. We made some minor additions for things that might be useful like label info and categories of media that weren&amp;rsquo;t present but the app largely remains similar.&lt;/p&gt;
+&lt;h2 id="next-steps"&gt;Next steps&lt;/h2&gt;
+&lt;p&gt;With all this geared up, we were hoping to get started with actually &lt;em&gt;doing&lt;/em&gt; the survey at the start of this new year but with the pandemic raging I&amp;rsquo;ve been fully working from home this past month. Delayed again! But what can you do? Before going remote again, I already had done some calculations based on the number of boxes I&amp;rsquo;m allowed to call to campus (we use offsite storage), the number of days I work on campus during a week, and the time to do the survey against the time remaining and it would be impossible to finish by the end of the fiscal year (when I wanted to complete the survey).&lt;/p&gt;
+&lt;p&gt;So even with the month delay, things were already a bit behind. I&amp;rsquo;m ready to push ahead with the actual survey regardless of the time it takes and hope to share some more updates along the way!&lt;/p&gt;</description></item><item><title>A short look @ Kids dot US, a failed public/private web experiment [for kids]</title><link>https://carrano.org/2021/08/kids-dot-us/</link><pubDate>Tue, 24 Aug 2021 20:26:29 -0400</pubDate><guid>https://carrano.org/2021/08/kids-dot-us/</guid><description>&lt;p&gt;A little while ago I went down a Wikipedia rabbit hole and ended up at the the Wikipedia article for the &lt;a href="https://en.wikipedia.org/wiki/.us"&gt;.us domain&lt;/a&gt;. I was particularly intrigued by the section for Kids.us. Have you heard of it? I know I had no idea what it was.&lt;/p&gt;
+&lt;p&gt;As the Wikipedia article states, it was a subdomain of the .us domain made specifically for kids and created by U.S. law! Through an act of Congress in 2002, lawmakers created the subdomain to be used by content providers to create kid-centric websites. It never really took off and by the end there were only 6 active websites left on the subdomain: Nick, NickJr, PBSkids, Smithsonian, and two identical sites selling trampolines.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;This peaked my interest. What were these websites like? Was there any more information out there? Why did the U.S. government ever think this was a good idea?&lt;/p&gt;
+&lt;h2 id="birthing-a-subdomain"&gt;Birthing a subdomain&lt;/h2&gt;
+&lt;p&gt;In the early 2000s, just as today, politicians were &lt;em&gt;concerned&lt;/em&gt; about kids on the internet. Especially how sites were using common word web domains to host pornography, which many people, including children, would stumble upon accidentally. A bipartisan group of lawmakers felt the solution would be to create a domain where there would only be appropriate content for children, which many of them described akin to the &amp;ldquo;children&amp;rsquo;s section of a library&amp;rdquo; but of course probably never spoke to a children&amp;rsquo;s librarian.&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The original idea was to create a new TLD (top-level domain) called dot kids (.kids) but there was some controversy over the US throwing its weight around to impose US law to a domain that would be used internationally and also the bill&amp;rsquo;s sponsors felt it would take ICANN forever to actually deliberate on whether they would agree to create this for them. In light of this, the focus switched to an area more under US control, the .us domain.&lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;So as mentioned above, they created an act (the Dot Kids Implementation and Efficiency Act of 2002) and the kids dot us subdomain (.kids.us) was born. The law tasked the company under contract with &lt;a href="https://en.wikipedia.org/wiki/National_Telecommunications_and_Information_Administration"&gt;NTIA&lt;/a&gt; to administer the .us domain at the time, &lt;a href="https://en.wikipedia.org/wiki/Neustar"&gt;Neustar&lt;/a&gt;, to manage the subdomain and the content moderation of the sites that registered.&lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id="we-have-rules"&gt;We have rules&lt;/h2&gt;
+&lt;p&gt;Neustar started up the service and got a decent amount of registrants but not a lot of &lt;code&gt;#content&lt;/code&gt;. It was pretty strict what could go on the site - no external hyperlinks (a walled garden), no &amp;ldquo;two-way and multi-user interactive services&amp;rdquo; (email, chat, etc.), nothing that would break existing laws, plus no: mature content, pornography, inappropriate language, violence, hate speech, drugs, alcohol, tobacco, ambling, weapons, and criminal activity. In order finance the administration of these rules, each registration came with a hefty price tag plus a &amp;ldquo;content approval fee&amp;rdquo;, which in turn probably stifled demand combined with the already stringent content rules.&lt;sup id="fnref:6"&gt;&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref"&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:7"&gt;&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref"&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id="were-the-kids-of-the-dot-us-woah"&gt;We&amp;rsquo;re the kids of the dot US (woah)&lt;/h2&gt;
+&lt;p&gt;At its peak, Kids dot US only had about 24 active websites, a far cry from what the crafters of the act that established it envisioned. The main kids.us site indexed these pages on the homepage. Most just consisted of Flash games which included hyperlinks, i.e. violated the rules, directing users to the download the required software (safest software out there at the time!). There also seemed to be a bunch of sites that had links to outside sites but they weren&amp;rsquo;t hyperlinked, so really any kid who learned copy/paste would be well on their way to the big bad internet.&lt;sup id="fnref:8"&gt;&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref"&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref1:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Below are a selection of the mundane to strange screenshots I saw when browsing the archived website.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/kidsdotus_01.png" alt="screenshot of early kids.us homepage" /&gt;
+&lt;figcaption&gt;original kids.us index page&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/kidsdotus_pbskids01.png" alt="screenshot of pbskids.kids.us" /&gt;
+&lt;figcaption&gt;clearly part of the conspiracy&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/kidsdotus_americaslibrary01.png" alt="screenshot of AmericasLibrary.kids.us" /&gt;
+&lt;figcaption&gt;everyone knows what America&amp;#39;s library is&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/kidsdotus_minnesota01.png" alt="screenshot of minnesosta.kids.us" /&gt;
+&lt;figcaption&gt;they do stuff&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/kidsdotus_noaa01.png" alt="screenshot of noaa.kids.us" /&gt;
+&lt;figcaption&gt;Owlie Skywarn is actually pretty cool&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/kidsdotus_noaa02.png" alt="screenshot of noaa.kids.us" /&gt;
+&lt;figcaption&gt;lightning is dangerous, but also fun!&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/kidsdotus_summum01.png" alt="screenshot of summum.kids.us" /&gt;
+&lt;figcaption&gt;mummification, for kids!&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/kidsdotus_summum02.png" alt="screenshot of &amp;lsquo;summum.kids.us/mummybear&amp;rsquo;" /&gt;
+&lt;figcaption&gt;did I mention the mummy people had a mummy bear mascot?&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/kidsdotus_stnicholas.png" alt="screenshot of stnicholas.kids.us" /&gt;
+&lt;figcaption&gt;Santa truthers were there too&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="you-dont-have-to-go-home-but-you-cant-stay-here"&gt;You don&amp;rsquo;t have to go home but you can&amp;rsquo;t stay here&lt;/h2&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="https://carrano.org/posts/media/kidsdotus_knex01.png" alt="screenshot of knex.kids.us" /&gt;
+&lt;figcaption&gt;please set it aside, and do not use it&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Kids dot US shutdown officially in 2012 and an education advisory group set to the task of evaluating whether it was worth it to keep it going in some way. Spoiler alert: it wasn&amp;rsquo;t. &lt;sup id="fnref2:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The limited scope of the subdomain makes it an ideal use case if someone wanted to do research on what went on there from a number of perspectives. It could be something similar to &lt;a href="https://doi.org/10.1007/s00799-016-0202-6"&gt;the study of another short lived domain, Yugoslavia (.yu)&lt;/a&gt;, or something different entirely! Take a look at the &lt;a href="https://web.archive.org/web/20050403142136/http://www.kids.us/sitelist.html?catALL"&gt;archived 2005 site&lt;/a&gt; of the index (around the time with the peak number if sites) either in Wayback or Oldweb.today (for flash!) and enjoy the ride.&lt;/p&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/.us#Kids.us"&gt;Kids.us Wikipedia article section&lt;/a&gt;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;&lt;a href="https://web.archive.org/web/20150402092915/http://www.neustar.us/wp-content/uploads/2014/10/education-advisory-committee-final-report.pdf"&gt;Final Report of the Kids.us Education Advisory Committee&lt;/a&gt;&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;&lt;a href="https://purl.fdlp.gov/GPO/LPS67177"&gt;S. 2537, H.R. 3833 : Dot Kids Implementation and Efficiency Act of 2002 : hearing before the Subcommittee on Science, Technology, and Space of the Committee on Commerce, Science, and Transportation, United States Senate, One Hundred Seventh Congress, second session, September 12, 2002. &lt;/a&gt;&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;&lt;a href="https://purl.fdlp.gov/GPO/LPS17355"&gt;Dot Kids Name Act of 2001. Hearing before the Subcommittee on Telecommunications and the Internet of the Committee on Energy and Commerce. House of Representatives, One Hundred Seventh Congress, First Session on H.R. 2417&lt;/a&gt;&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;&lt;a href="https://www.govinfo.gov/app/details/PLAW-107publ317"&gt;Public Law 107 - 317 - Dot Kids Implementation and Efficiency Act of 2002&lt;/a&gt;&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:6"&gt;
+&lt;p&gt;&lt;a href="https://web.archive.org/web/20040409145510/http://www.kids.us/content_policy/content.html"&gt;Kids.us Content Policies&lt;/a&gt;&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:7"&gt;
+&lt;p&gt;&lt;a href="https://circleid.com/posts/the_small_but_limitless_world_of_kidsus/"&gt;The Small, But Limitless World of .kids.us&lt;/a&gt;&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:8"&gt;
+&lt;p&gt;&lt;a href="https://purl.fdlp.gov/GPO/LPS54570"&gt;The &amp;ldquo;dot kids&amp;rdquo; Internet domain: protecting children online: hearing before the Subcommittee on Telecommunications and the Internet of the Committee on Energy and Commerce, House of Representatives, One Hundred Eighth Congress, second session, May 6, 2004&lt;/a&gt;&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>Hello World</title><link>https://carrano.org/2021/05/hello-world/</link><pubDate>Sun, 09 May 2021 04:00:50 -0400</pubDate><guid>https://carrano.org/2021/05/hello-world/</guid><description>&lt;p&gt;Hi there! I&amp;rsquo;ve decided to break ground on a new website for myself that&amp;rsquo;s more under my control and at my own domain.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m moving away from my old site &lt;a href="https://josephcarrano.wordpress.com"&gt;josephcarrano.wordpress.com&lt;/a&gt; and casting it into the abandoned graveyard. In recent years, I&amp;rsquo;ve been loath to create new posts not only because I&amp;rsquo;m lazy but also because I hate the thought of publishing content to URLs that could easily break.&lt;/p&gt;
+&lt;p&gt;Despite this worry, I won&amp;rsquo;t be migrating content at the moment or setting up redirects because I don&amp;rsquo;t feel like paying WordPress for the redirect service and it&amp;rsquo;s simple enough to leave it there neglected as it has been for the last few years. I&amp;rsquo;m mainly leaving it up in the interest of preventing link rot on the few posts that people found useful. If you want to check out the posts there, they should remain as long as wordpress.com remains free and functioning online. Maybe I&amp;rsquo;ll reconsider this later.&lt;/p&gt;
+&lt;p&gt;Anyway, I&amp;rsquo;m hoping to post a little bit more now. As much as once or twice a year even! And if you&amp;rsquo;re interested, you&amp;rsquo;ll find that content here.&lt;/p&gt;</description></item><item><title>About me</title><link>https://carrano.org/about/</link><pubDate>Mon, 26 Apr 2021 22:50:50 -0400</pubDate><guid>https://carrano.org/about/</guid><description>&lt;p&gt;Hi! I’m Joe Carrano. This is my personal professional site. I&amp;rsquo;m a digital archivist at MIT Libraries where I work on saving both old and new bits for future generations. Previously, I was the &lt;a href="http://www.digitalpreservation.gov/ndsr/documents/GUL_Proposal_Redacted.pdf"&gt;National Digital Stewardship Resident&lt;/a&gt; at Georgetown University Library. I have a B.A. in history and political science from the University of Connecticut and dual master’s degrees from the University of Maryland, College Park, one in Library Science focusing on Archives and one in History focusing on U.S. History. The site you&amp;rsquo;re on serves mainly as a place to put some (infrequent) blog posts on archives, history, and the digital world. If interested, stay and read more or contact me on &lt;a href="https://twitter.com/joecar25"&gt;twitter&lt;/a&gt; or &lt;a href="https://digipres.club"&gt;digipres.club&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

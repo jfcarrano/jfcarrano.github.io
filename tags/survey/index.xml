@@ -1,88 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>survey on Joe Carrano</title><link>https://carrano.org/tags/survey/</link><description>Recent content in survey on Joe Carrano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC-BY</copyright><lastBuildDate>Wed, 03 May 2023 10:11:38 -0500</lastBuildDate><atom:link href="https://carrano.org/tags/survey/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital media survey results</title><link>https://carrano.org/2023/05/mit-digital-media-survey-results/</link><pubDate>Wed, 03 May 2023 10:11:38 -0500</pubDate><guid>https://carrano.org/2023/05/mit-digital-media-survey-results/</guid><description>&lt;p>Over the last year, I&amp;rsquo;ve worked on a &lt;a href="https://carrano.org/2022/01/mit-digital-media-survey-01/">digital media survey&lt;/a> of our archival and distinctive collections at MIT Libraries. I mentioned in that post linked above I would update this blog along the way but that didn&amp;rsquo;t really happen, sorry friends!&lt;/p>
-&lt;h2 id="media-circus">Media circus&lt;/h2>
-&lt;p>Things went pretty well and a bit faster than I expected. It took me just over a year with some fits and starts to finish the whole survey process. The first stage was our archival and manuscript collections, of which, I was able to review over 300 boxes and a few dozen rare books and publications in 8 months.&lt;/p>
-&lt;p>Along the way, I transferred data from media we could in handle in house within collections that had a total of 2 or fewer pieces of media since it was convenient while the boxes were onsite. The small number ensured that we could get them done relatively easily and have a quick win of crossing a collection off the list with media needing to transfer data from.&lt;/p>
-&lt;p>After surveying the first stage of surveying, I started on the academic theses, which are also under our purview. The work to assemble the list of media from published material was started earlier when needing to find this information for publications and rare books in the main collections mentioned above. As these material have their metadata stored as MARC records in Alma, I went about putting together a similar list of material as with the archival records. Within Alma, I ran a number of &amp;ldquo;indication rules&amp;rdquo; looking in the 300 field, subfields a and e for the terms: &lt;code>dis*&lt;/code>, &lt;code>flopp*&lt;/code>, &lt;code>zip&lt;/code>,&lt;code>computer&lt;/code>, &lt;code>cartridge&lt;/code>, &lt;code>CD*&lt;/code>, &lt;code>DVD*&lt;/code>, &lt;code>USB&lt;/code>, and &lt;code>drive&lt;/code>. Additionally, local cataloging practice for a time was to use a call number prefix for media, often when those items were included with another print title with the same call number. I was able to assemble a list of these prefixes like CDROM, DSKETTE, etc. and search for them in Alma as well, in case this surfaced anything missed in the 300 field search. I combined the results into a spreadsheet, deduped them, and then got to work surveying and storing results in our media log tool.&lt;/p>
-&lt;p>Work on the theses took about another 4 months as getting them from offsite storage was just as time consuming as when doing so with the main part of the survey. With some of the these stored in boxes as a group, I often had to request many boxes just to get through a year with a few theses that contained external media. Ultimately, I was able to finish up everything by the end of February of this year.&lt;/p>
-&lt;h2 id="results">Results&lt;/h2>
-&lt;p>Here are the results from our the total survey (including theses). I&amp;rsquo;ve simplified CDs and DVDs to be a summary of all of their subtypes.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">Format&lt;/th>
-&lt;th style="text-align:right">Count&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">Floppy disk: 3.5 inch&lt;/td>
-&lt;td style="text-align:right">909&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">CD&lt;/td>
-&lt;td style="text-align:right">846&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Floppy disk: 5.25 inch&lt;/td>
-&lt;td style="text-align:right">394&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">DVD&lt;/td>
-&lt;td style="text-align:right">339&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Data tape&lt;/td>
-&lt;td style="text-align:right">278&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Data cartridge&lt;/td>
-&lt;td style="text-align:right">238&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Zip disk&lt;/td>
-&lt;td style="text-align:right">126&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Floppy disk: 8 inch&lt;/td>
-&lt;td style="text-align:right">49&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Jaz disk&lt;/td>
-&lt;td style="text-align:right">7&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Hard drive&lt;/td>
-&lt;td style="text-align:right">4&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Computer&lt;/td>
-&lt;td style="text-align:right">4&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Flash memory: USB&lt;/td>
-&lt;td style="text-align:right">3&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Overall, I found just slightly under 3000 pieces of digital media in our distinctive collections and another 250ish pieces of media included with theses. It’s thankfully much less than you might expect for a technology-focused place like MIT. The majority of media found were floppy and optical formats that we have established workflows and equipment to handle. Whether the content is readable or not is another story but we can make an attempt.&lt;/p>
-&lt;p>While we can handle most of the found formats, the survey revealed a sizable number of 8-inch floppy disks, data cartridges, and mainframe data tapes, that we don’t have an in-house solution for. Those results are concerning but this is exactly what we wanted to surface for planning purposes.&lt;/p>
-&lt;h2 id="lessons-learned">Lessons Learned&lt;/h2>
-&lt;p>Things didn’t always go smoothly, this survey ended up being an exercise in metadata remediation. We often encountered errors in box numbers, missing items, total lack of description, and completely misidentified things.&lt;/p>
-&lt;p>One particular frustration with the archival and manuscript collections was that 180 entries out of 640 turned out to be false positive matches for digital media. About half of those were from using the phrase “backup” or &amp;ldquo;back-up&amp;rdquo;, which was a false match 92 percent of the time. Often it really just meant paper backups. It turns out that despite seeing the words &amp;ldquo;backup&amp;rdquo; written on labels of a lot of the media I found, it was almost never entered into a finding aid in those cases.&lt;/p>
-&lt;h2 id="future-steps">Future steps&lt;/h2>
-&lt;p>This data has already been a great starting point for better understanding how much work is ahead in analyzing and transferring digital media and how we can plan to go about it. We&amp;rsquo;ve started dissecting the specifics of the data to prioritize some of it, such as institutional records we have a clear mandate to preserve and things from women and BIPOC related collections. In the next year, we&amp;rsquo;ll begin more work on getting though the media as well as establishing metrics on how long on average it takes to process different media types. This will help give us a better idea how long we will need to commit to some of the transfer projects.&lt;/p></description></item><item><title>Learning to walk again: starting a digital media survey</title><link>https://carrano.org/2022/01/mit-digital-media-survey-01/</link><pubDate>Tue, 25 Jan 2022 20:45:52 -0500</pubDate><guid>https://carrano.org/2022/01/mit-digital-media-survey-01/</guid><description>&lt;p>In Ricky Erway&amp;rsquo;s foundational instructional guide, &lt;a href="https://www.oclc.org/research/publications/2012/oclcresearch-managing-born-digital-physical-media.html">&amp;ldquo;You&amp;rsquo;ve Got to Walk Before You Can Run: First Steps for Managing Born-Digital Content Received on Physical Media&amp;rdquo;&lt;/a>, we learn that &amp;ldquo;walk&amp;rdquo; in this context means to know about the physical media that you have in your collection, the where, the how much, and the what type. This is also related to the archival principles of &lt;a href="https://dictionary.archivists.org/entry/physical-control.html">physical&lt;/a> and &lt;a href="https://dictionary.archivists.org/entry/intellectual-control.html">intellectual control&lt;/a> of collections. This report inspired many archival institutions to begin surveying their collections for born-digital media as a basic starting point to approaching born-digital processing. The trend included multiple rounds of &lt;a href="https://www2.archivists.org/groups/manuscript-repositories-section/jump-in-initiative-0">SAA&amp;rsquo;s &amp;ldquo;Jump-in&amp;rdquo; initiative&lt;/a> which encouraged repositories to do surveys and share their results.&lt;/p>
-&lt;p>Where I work, the MIT Libraries, for various reasons, did not do a survey or partake in the Jump-in initiatives. There were efforts to survey some collections but there wasn&amp;rsquo;t anything comprehensive. At the same time, there was some transfer of material off of digital media found in collections. So we weren&amp;rsquo;t walking or jumping but we would do random sprints and then collapse into a crawl, gasping for breath while working on other projects that came along.&lt;/p>
-&lt;p>In recent years, I&amp;rsquo;ve worked to formalize our &lt;a href="https://wikis.mit.edu/confluence/x/8xmuC">procedures for transferring content&lt;/a> off of born-digital physical media and I feel like we&amp;rsquo;re in a good place to do that work for common media types. In 2019, I began the start of work for a media survey but was delayed due to the pandemic (surprise!). When I regained the ability to access the collections again in fall 2021, I began the survey work in earnest.&lt;/p>
-&lt;h2 id="goals">Goals&lt;/h2>
-&lt;p>In starting this work I have a few goals for what we hope to get out of it. As you might expect, I want to figure out what media we have and where it is! Beyond this simple knowledge, doing this work will give us a more holistic understanding of the media in our collection that can inform our future processing efforts, appraisal, staffing, and what equipment we may need. While all of this media is at some level of risk remaining stored in these formats, knowing the collections that contain the media can help us take an EDISJ approach in prioritizing the transfer of content by and about white women and people of color of all genders.&lt;/p>
-&lt;h2 id="looking-for-leads">Looking for leads&lt;/h2>
-&lt;p>We started the survey process by developing a list of terms related to digital media, which we could then search for in our ArchivesSpace repository and create a report from the API with: Floppy, Floppies, Disc, Discs, Disk, Disks, Diskette, Diskettes, CD, CDs, CD-rom, CD-roms, DVD, DVDs, USB, Hard drive, Flash drive, Digital, Zip, Data tape, Data tapes, Thumb drive, Backup, Backups, Cartridge, Cartridges.&lt;/p>
-&lt;p>Using this list we ended up with a pretty long CSV of possible elements within finding aids and accessions to investigate. To make this list a little more manageable, I separated out the terms that were the result of just searching &amp;ldquo;digital&amp;rdquo; to possibly work on at a later stage of the process, as these would most like contain the most false positives.&lt;/p>
-&lt;p>I started going through the remaining list for any false positives or duplicate entries. We ended up with 545 entries, which isn&amp;rsquo;t that solid of a number as in many cases I can&amp;rsquo;t tell whether description is in aggregate or an item level. I used formulas to total up the frequency per search term and the number of results per archival collection which I can use as a starting point to figure out which collections to call first. I then took the paired down list and bulk imported them into an Aeon &amp;ldquo;activity&amp;rdquo; for eventually requesting their boxes from storage.&lt;/p>
-&lt;h2 id="how-to-record-survey-results">How to record survey results&lt;/h2>
-&lt;p>In planning for this survey we needed a method to record our results once the boxes are called from storage and we get that sweet plastic, magnetic, and optical substrate into our hands. That&amp;rsquo;s where the media log will come in!&lt;/p>
-&lt;p>Archivists at other institutions developed multiple media logs (&lt;a href="https://github.com/NYULibraries/medialog">NYU&lt;/a> and &lt;a href="https://github.com/RockefellerArchiveCenter/dm_log">Rockefeller Archive Center&lt;/a>, for instance) for similar situations as us, recording the presence of digital media in collections, it&amp;rsquo;s type, and whether the content has been migrated to a more accessible medium. These other instances caught the eye of staff members here years ago and we had &lt;a href="https://github.com/MITLibraries/adml">a version that was spun up for us&lt;/a> (but rewritten in Java, not sure why&amp;hellip;). The app sat largely unused since that time, when the pandemic started it was fully taken offline due to a need of a infrastructure migration and the realization that it wouldn&amp;rsquo;t be used for some time.&lt;/p>
-&lt;p>As part of the survey prep we decided to get the app running again because it seemed like it would fit our needs. This took a little while with some support from staff in digital library services but we&amp;rsquo;re back up and running. We made some minor additions for things that might be useful like label info and categories of media that weren&amp;rsquo;t present but the app largely remains similar.&lt;/p>
-&lt;h2 id="next-steps">Next steps&lt;/h2>
-&lt;p>With all this geared up, we were hoping to get started with actually &lt;em>doing&lt;/em> the survey at the start of this new year but with the pandemic raging I&amp;rsquo;ve been fully working from home this past month. Delayed again! But what can you do? Before going remote again, I already had done some calculations based on the number of boxes I&amp;rsquo;m allowed to call to campus (we use offsite storage), the number of days I work on campus during a week, and the time to do the survey against the time remaining and it would be impossible to finish by the end of the fiscal year (when I wanted to complete the survey).&lt;/p>
-&lt;p>So even with the month delay, things were already a bit behind. I&amp;rsquo;m ready to push ahead with the actual survey regardless of the time it takes and hope to share some more updates along the way!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Survey on Joe Carrano</title><link>https://carrano.org/tags/survey/</link><description>Recent content in Survey on Joe Carrano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>CC-BY</copyright><lastBuildDate>Wed, 03 May 2023 10:11:38 -0500</lastBuildDate><atom:link href="https://carrano.org/tags/survey/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital media survey results</title><link>https://carrano.org/2023/05/mit-digital-media-survey-results/</link><pubDate>Wed, 03 May 2023 10:11:38 -0500</pubDate><guid>https://carrano.org/2023/05/mit-digital-media-survey-results/</guid><description>&lt;p&gt;Over the last year, I&amp;rsquo;ve worked on a &lt;a href="https://carrano.org/2022/01/mit-digital-media-survey-01/"&gt;digital media survey&lt;/a&gt; of our archival and distinctive collections at MIT Libraries. I mentioned in that post linked above I would update this blog along the way but that didn&amp;rsquo;t really happen, sorry friends!&lt;/p&gt;
+&lt;h2 id="media-circus"&gt;Media circus&lt;/h2&gt;
+&lt;p&gt;Things went pretty well and a bit faster than I expected. It took me just over a year with some fits and starts to finish the whole survey process. The first stage was our archival and manuscript collections, of which, I was able to review over 300 boxes and a few dozen rare books and publications in 8 months.&lt;/p&gt;
+&lt;p&gt;Along the way, I transferred data from media we could in handle in house within collections that had a total of 2 or fewer pieces of media since it was convenient while the boxes were onsite. The small number ensured that we could get them done relatively easily and have a quick win of crossing a collection off the list with media needing to transfer data from.&lt;/p&gt;
+&lt;p&gt;After surveying the first stage of surveying, I started on the academic theses, which are also under our purview. The work to assemble the list of media from published material was started earlier when needing to find this information for publications and rare books in the main collections mentioned above. As these material have their metadata stored as MARC records in Alma, I went about putting together a similar list of material as with the archival records. Within Alma, I ran a number of &amp;ldquo;indication rules&amp;rdquo; looking in the 300 field, subfields a and e for the terms: &lt;code&gt;dis*&lt;/code&gt;, &lt;code&gt;flopp*&lt;/code&gt;, &lt;code&gt;zip&lt;/code&gt;,&lt;code&gt;computer&lt;/code&gt;, &lt;code&gt;cartridge&lt;/code&gt;, &lt;code&gt;CD*&lt;/code&gt;, &lt;code&gt;DVD*&lt;/code&gt;, &lt;code&gt;USB&lt;/code&gt;, and &lt;code&gt;drive&lt;/code&gt;. Additionally, local cataloging practice for a time was to use a call number prefix for media, often when those items were included with another print title with the same call number. I was able to assemble a list of these prefixes like CDROM, DSKETTE, etc. and search for them in Alma as well, in case this surfaced anything missed in the 300 field search. I combined the results into a spreadsheet, deduped them, and then got to work surveying and storing results in our media log tool.&lt;/p&gt;
+&lt;p&gt;Work on the theses took about another 4 months as getting them from offsite storage was just as time consuming as when doing so with the main part of the survey. With some of the these stored in boxes as a group, I often had to request many boxes just to get through a year with a few theses that contained external media. Ultimately, I was able to finish up everything by the end of February of this year.&lt;/p&gt;
+&lt;h2 id="results"&gt;Results&lt;/h2&gt;
+&lt;p&gt;Here are the results from our the total survey (including theses). I&amp;rsquo;ve simplified CDs and DVDs to be a summary of all of their subtypes.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Format&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Count&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Floppy disk: 3.5 inch&lt;/td&gt;
+&lt;td style="text-align: right"&gt;909&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;CD&lt;/td&gt;
+&lt;td style="text-align: right"&gt;846&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Floppy disk: 5.25 inch&lt;/td&gt;
+&lt;td style="text-align: right"&gt;394&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;DVD&lt;/td&gt;
+&lt;td style="text-align: right"&gt;339&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Data tape&lt;/td&gt;
+&lt;td style="text-align: right"&gt;278&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Data cartridge&lt;/td&gt;
+&lt;td style="text-align: right"&gt;238&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Zip disk&lt;/td&gt;
+&lt;td style="text-align: right"&gt;126&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Floppy disk: 8 inch&lt;/td&gt;
+&lt;td style="text-align: right"&gt;49&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Jaz disk&lt;/td&gt;
+&lt;td style="text-align: right"&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Hard drive&lt;/td&gt;
+&lt;td style="text-align: right"&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Computer&lt;/td&gt;
+&lt;td style="text-align: right"&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Flash memory: USB&lt;/td&gt;
+&lt;td style="text-align: right"&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Overall, I found just slightly under 3000 pieces of digital media in our distinctive collections and another 250ish pieces of media included with theses. It’s thankfully much less than you might expect for a technology-focused place like MIT. The majority of media found were floppy and optical formats that we have established workflows and equipment to handle. Whether the content is readable or not is another story but we can make an attempt.&lt;/p&gt;
+&lt;p&gt;While we can handle most of the found formats, the survey revealed a sizable number of 8-inch floppy disks, data cartridges, and mainframe data tapes, that we don’t have an in-house solution for. Those results are concerning but this is exactly what we wanted to surface for planning purposes.&lt;/p&gt;
+&lt;h2 id="lessons-learned"&gt;Lessons Learned&lt;/h2&gt;
+&lt;p&gt;Things didn’t always go smoothly, this survey ended up being an exercise in metadata remediation. We often encountered errors in box numbers, missing items, total lack of description, and completely misidentified things.&lt;/p&gt;
+&lt;p&gt;One particular frustration with the archival and manuscript collections was that 180 entries out of 640 turned out to be false positive matches for digital media. About half of those were from using the phrase “backup” or &amp;ldquo;back-up&amp;rdquo;, which was a false match 92 percent of the time. Often it really just meant paper backups. It turns out that despite seeing the words &amp;ldquo;backup&amp;rdquo; written on labels of a lot of the media I found, it was almost never entered into a finding aid in those cases.&lt;/p&gt;
+&lt;h2 id="future-steps"&gt;Future steps&lt;/h2&gt;
+&lt;p&gt;This data has already been a great starting point for better understanding how much work is ahead in analyzing and transferring digital media and how we can plan to go about it. We&amp;rsquo;ve started dissecting the specifics of the data to prioritize some of it, such as institutional records we have a clear mandate to preserve and things from women and BIPOC related collections. In the next year, we&amp;rsquo;ll begin more work on getting though the media as well as establishing metrics on how long on average it takes to process different media types. This will help give us a better idea how long we will need to commit to some of the transfer projects.&lt;/p&gt;</description></item><item><title>Learning to walk again: starting a digital media survey</title><link>https://carrano.org/2022/01/mit-digital-media-survey-01/</link><pubDate>Tue, 25 Jan 2022 20:45:52 -0500</pubDate><guid>https://carrano.org/2022/01/mit-digital-media-survey-01/</guid><description>&lt;p&gt;In Ricky Erway&amp;rsquo;s foundational instructional guide, &lt;a href="https://www.oclc.org/research/publications/2012/oclcresearch-managing-born-digital-physical-media.html"&gt;&amp;ldquo;You&amp;rsquo;ve Got to Walk Before You Can Run: First Steps for Managing Born-Digital Content Received on Physical Media&amp;rdquo;&lt;/a&gt;, we learn that &amp;ldquo;walk&amp;rdquo; in this context means to know about the physical media that you have in your collection, the where, the how much, and the what type. This is also related to the archival principles of &lt;a href="https://dictionary.archivists.org/entry/physical-control.html"&gt;physical&lt;/a&gt; and &lt;a href="https://dictionary.archivists.org/entry/intellectual-control.html"&gt;intellectual control&lt;/a&gt; of collections. This report inspired many archival institutions to begin surveying their collections for born-digital media as a basic starting point to approaching born-digital processing. The trend included multiple rounds of &lt;a href="https://www2.archivists.org/groups/manuscript-repositories-section/jump-in-initiative-0"&gt;SAA&amp;rsquo;s &amp;ldquo;Jump-in&amp;rdquo; initiative&lt;/a&gt; which encouraged repositories to do surveys and share their results.&lt;/p&gt;
+&lt;p&gt;Where I work, the MIT Libraries, for various reasons, did not do a survey or partake in the Jump-in initiatives. There were efforts to survey some collections but there wasn&amp;rsquo;t anything comprehensive. At the same time, there was some transfer of material off of digital media found in collections. So we weren&amp;rsquo;t walking or jumping but we would do random sprints and then collapse into a crawl, gasping for breath while working on other projects that came along.&lt;/p&gt;
+&lt;p&gt;In recent years, I&amp;rsquo;ve worked to formalize our &lt;a href="https://wikis.mit.edu/confluence/x/8xmuC"&gt;procedures for transferring content&lt;/a&gt; off of born-digital physical media and I feel like we&amp;rsquo;re in a good place to do that work for common media types. In 2019, I began the start of work for a media survey but was delayed due to the pandemic (surprise!). When I regained the ability to access the collections again in fall 2021, I began the survey work in earnest.&lt;/p&gt;
+&lt;h2 id="goals"&gt;Goals&lt;/h2&gt;
+&lt;p&gt;In starting this work I have a few goals for what we hope to get out of it. As you might expect, I want to figure out what media we have and where it is! Beyond this simple knowledge, doing this work will give us a more holistic understanding of the media in our collection that can inform our future processing efforts, appraisal, staffing, and what equipment we may need. While all of this media is at some level of risk remaining stored in these formats, knowing the collections that contain the media can help us take an EDISJ approach in prioritizing the transfer of content by and about white women and people of color of all genders.&lt;/p&gt;
+&lt;h2 id="looking-for-leads"&gt;Looking for leads&lt;/h2&gt;
+&lt;p&gt;We started the survey process by developing a list of terms related to digital media, which we could then search for in our ArchivesSpace repository and create a report from the API with: Floppy, Floppies, Disc, Discs, Disk, Disks, Diskette, Diskettes, CD, CDs, CD-rom, CD-roms, DVD, DVDs, USB, Hard drive, Flash drive, Digital, Zip, Data tape, Data tapes, Thumb drive, Backup, Backups, Cartridge, Cartridges.&lt;/p&gt;
+&lt;p&gt;Using this list we ended up with a pretty long CSV of possible elements within finding aids and accessions to investigate. To make this list a little more manageable, I separated out the terms that were the result of just searching &amp;ldquo;digital&amp;rdquo; to possibly work on at a later stage of the process, as these would most like contain the most false positives.&lt;/p&gt;
+&lt;p&gt;I started going through the remaining list for any false positives or duplicate entries. We ended up with 545 entries, which isn&amp;rsquo;t that solid of a number as in many cases I can&amp;rsquo;t tell whether description is in aggregate or an item level. I used formulas to total up the frequency per search term and the number of results per archival collection which I can use as a starting point to figure out which collections to call first. I then took the paired down list and bulk imported them into an Aeon &amp;ldquo;activity&amp;rdquo; for eventually requesting their boxes from storage.&lt;/p&gt;
+&lt;h2 id="how-to-record-survey-results"&gt;How to record survey results&lt;/h2&gt;
+&lt;p&gt;In planning for this survey we needed a method to record our results once the boxes are called from storage and we get that sweet plastic, magnetic, and optical substrate into our hands. That&amp;rsquo;s where the media log will come in!&lt;/p&gt;
+&lt;p&gt;Archivists at other institutions developed multiple media logs (&lt;a href="https://github.com/NYULibraries/medialog"&gt;NYU&lt;/a&gt; and &lt;a href="https://github.com/RockefellerArchiveCenter/dm_log"&gt;Rockefeller Archive Center&lt;/a&gt;, for instance) for similar situations as us, recording the presence of digital media in collections, it&amp;rsquo;s type, and whether the content has been migrated to a more accessible medium. These other instances caught the eye of staff members here years ago and we had &lt;a href="https://github.com/MITLibraries/adml"&gt;a version that was spun up for us&lt;/a&gt; (but rewritten in Java, not sure why&amp;hellip;). The app sat largely unused since that time, when the pandemic started it was fully taken offline due to a need of a infrastructure migration and the realization that it wouldn&amp;rsquo;t be used for some time.&lt;/p&gt;
+&lt;p&gt;As part of the survey prep we decided to get the app running again because it seemed like it would fit our needs. This took a little while with some support from staff in digital library services but we&amp;rsquo;re back up and running. We made some minor additions for things that might be useful like label info and categories of media that weren&amp;rsquo;t present but the app largely remains similar.&lt;/p&gt;
+&lt;h2 id="next-steps"&gt;Next steps&lt;/h2&gt;
+&lt;p&gt;With all this geared up, we were hoping to get started with actually &lt;em&gt;doing&lt;/em&gt; the survey at the start of this new year but with the pandemic raging I&amp;rsquo;ve been fully working from home this past month. Delayed again! But what can you do? Before going remote again, I already had done some calculations based on the number of boxes I&amp;rsquo;m allowed to call to campus (we use offsite storage), the number of days I work on campus during a week, and the time to do the survey against the time remaining and it would be impossible to finish by the end of the fiscal year (when I wanted to complete the survey).&lt;/p&gt;
+&lt;p&gt;So even with the month delay, things were already a bit behind. I&amp;rsquo;m ready to push ahead with the actual survey regardless of the time it takes and hope to share some more updates along the way!&lt;/p&gt;</description></item></channel></rss>
