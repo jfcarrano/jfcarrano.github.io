@@ -40,22 +40,17 @@ copyright = "CC-BY"
     [[menu.footer]]
         name = "Mastodon"
         url = "https://digipres.club/@joe"
-        weight = 3
+        weight = 2
 
     [[menu.footer]]
         name = "Github"
         url = "https://github.com/jfcarrano"
-        weight = 4
-
-    [[menu.footer]]
-        name = "Twitter"
-        url = "https://twitter.com/joecar25"
-        weight = 2
+        weight = 3
 
     [[menu.footer]]
         name = "Orcid"
         url = "https://orcid.org/0000-0003-2218-5838"
-        weight = 45
+        weight = 4
 
 [privacy]
   [privacy.disqus]
