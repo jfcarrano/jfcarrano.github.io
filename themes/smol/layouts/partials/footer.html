@@ -2,7 +2,7 @@
 	<p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}"><b>{{ .Site.Title }}</b></a>. Content licensed <a href=https://creativecommons.org/licenses/by/4.0/>{{ .Site.Copyright }}</a> unless otherwise noted.</p>
 	<p>
 	{{- range .Site.Menus.footer }}
-	<a href="{{ .URL }}"><b>{{ .Name }}</b></a>.
+	<a rel="me" href="{{ .URL }}"><b>{{ .Name }}</b></a>.
         {{- end }}
 	</p>
 </footer>
